@@ -125,3 +125,24 @@ body {
         }
     }
 }
+
+//BUTTONS// 
+.btn {
+    &__primary {
+        padding: 1vw 2vw;
+        border: 1px solid var.$accent-color;
+        border-radius: 2vw;
+        background: var.$linear-bg-cards;
+        color: var.$accent-color;
+        font-family: var.$text-font;
+        font-size: var.$size-small;
+        font-weight: var.$weight-light;
+        display: flex;
+        gap: 4vw;
+        opacity: .7;
+        &:hover {
+            cursor: pointer;
+            opacity: 1;
+        }
+    }
+}

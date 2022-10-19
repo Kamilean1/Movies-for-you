@@ -1,0 +1,158 @@
+@use 'var';
+
+@import 'navs';
+
+//base//
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a, button, input, textarea, select {
+    all: unset;
+}
+ul, li {
+    list-style-type: none;
+}
+
+body {
+    background-color: var.$black-color;
+}
+
+//search input// 
+.search {
+    height: 3vw;
+    width: 14vw;
+    background: var.$linear-bg-cards;
+    border-radius: 2vw;
+    position: relative;
+    &__input {
+        position: absolute;
+        right: 0;
+        height: 3vw;
+        width: 10vw;
+        &::placeholder {
+            font-family: var.$text-font;
+            font-size: var.$size-small;
+            color: var.$white-color;
+        }
+        &:hover {
+            //!!!!!!!!STYLE LATER
+        }
+        &:focus {
+            //!!!!!!!!STYLE LATER
+        }
+    }
+    &__label {
+        position: absolute;
+        top: 1vw;
+        left: 1vw;
+        i {
+            color: var.$white-color;
+            opacity: .6;
+            font-size: var.$size-regular;
+        }
+    }
+}
+
+.main {
+    padding: 3.5vw 2vw 2vw 2vw;
+    &__search {
+        width: 100%;
+        padding-right: 12vw;
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__cards {
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+    }
+    &__card {
+        background: var.$linear-bg-cards;
+        border-radius: 1vw;
+        padding: 2vw;
+        &__top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 2vw;
+        }
+        &__text-container {
+            display: flex;
+            gap: .6vw;
+            align-items: center;
+        }
+        &__number {
+            font-family: var.$logo-font;
+            font-size: var.$size-large;
+            color: var.$accent-color;
+            font-weight: var.$weight-medium;
+        }
+        &__service {
+            font-family: var.$logo-font;
+            font-size: var.$size-medium;
+            color: var.$white-color;
+            font-weight: var.$weight-regular;
+            text-transform: uppercase;
+        }
+        &__price {
+            font-family: var.$text-font;
+            font-size: var.$size-regular;
+            color: var.$white-color;
+            font-weight: var.$weight-regular;
+        }
+        &__title {
+            font-family: var.$text-font;
+            font-size: var.$size-regular;
+            color: var.$white-color;
+            font-weight: var.$weight-light;
+            opacity: .7;
+        }
+        &__bottom {
+            display: flex;
+            flex-direction: column;
+            gap: 2vh;
+            &__container {
+                display: flex;
+                padding: 0 12vw;
+                gap: 6vw;
+            }
+            &__half {
+                display: flex;
+                flex-direction: column;
+                gap: 2vh;
+                &__title {
+                    font-family: var.$text-font;
+                    font-size: var.$size-small;
+                    color: var.$white-color;
+                    font-weight: var.$weight-medium;
+                    text-transform: uppercase;
+                }
+                &__list {
+                    list-style-type: circle;
+                    font-family: var.$text-font;
+                    font-size: var.$size-small;
+                    color: var.$white-color;
+                    font-weight: var.$weight-light;
+                    opacity: .7;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1vh;
+                    padding-left: 2vw;
+                    li {
+                        list-style-type: disc;
+                    }
+                }
+            }
+        }
+        &__btn {
+            align-self: flex-end;
+        }
+    }
+}
+
+.footer {
+    height: auto; //overwrite partials!!
+ }
