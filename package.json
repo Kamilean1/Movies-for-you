@@ -1,0 +1,22 @@
+{
+  "name": "movies-for-you",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kamilean1/Movies-for-you.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kamilean1/Movies-for-you/issues"
+  },
+  "homepage": "https://github.com/Kamilean1/Movies-for-you#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}
