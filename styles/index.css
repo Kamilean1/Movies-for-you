@@ -76,7 +76,7 @@ section {
       flex-wrap: wrap;
 }
 
-.btn-1 {
+.btn-one {
   width: 193px;
   height: 48px;
   font-family: "Merriweather Sans";
@@ -104,7 +104,11 @@ section {
           justify-content: space-evenly;
 }
 
-.btn-1:hover {
+a:link {
+  text-decoration: none;
+}
+
+.btn-one:hover {
   background: #FF5F1F;
   color: #1E1E1E;
 }
@@ -115,6 +119,8 @@ section {
   opacity: 0.5;
   -webkit-box-shadow: -5px -5px 60px rgba(255, 255, 255, 0.25);
           box-shadow: -5px -5px 60px rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  border: 1px solid #F2F2F2;
 }
 
 .btn-2 {
