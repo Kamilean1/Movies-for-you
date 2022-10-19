@@ -18,5 +18,9 @@
         "titleBar.inactiveBackground": "#6da8e299",
         "titleBar.inactiveForeground": "#15202b99"
     },
-    "peacock.color": "#6DA8E2"
+    "peacock.color": "#6DA8E2",
+    "cSpell.words": [
+        "navs",
+        "ovies"
+    ]
 }
