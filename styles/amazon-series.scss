@@ -1,0 +1,77 @@
+@use 'var';
+
+@import 'navs';
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a, button, input, textarea, select {
+    all: unset;
+}
+ul, li {
+    list-style-type: none;
+}
+
+body {
+    /*background-color: var.$black-color;*/
+    background: rgb(88,72,223);
+    background: linear-gradient(90deg, rgba(88,72,223,1) 15%, rgba(6,24,106,1) 44%, rgba(0,0,0,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 80vw;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.modern {
+    width: 40vw;
+    height: 45vh;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.logo {
+    width: 20vw;
+    height: 35vh;
+    margin: 20px;
+}
+
+container.info-box {
+    width: 30vw;
+    height: 30vh;
+    background-color: #867ae7;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.info {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.rings {
+    width: 30vw;
+    height: 30vh;
+    border-radius: 20px;
+}
+
