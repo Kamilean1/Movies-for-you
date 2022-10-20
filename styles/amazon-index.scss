@@ -158,6 +158,8 @@ span {
 
 .movie-group {
     width: 62vw;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-self: center;
 }

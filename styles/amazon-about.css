@@ -217,7 +217,7 @@ main {
           align-items: center;
 }
 
-.top {
+.head-group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -225,157 +225,51 @@ main {
       flex-wrap: wrap;
 }
 
-.rings {
-  width: 60vw;
-  height: 50vh;
-  border-radius: 20px;
-}
-
 .logo {
-  width: 10vw;
-  height: 15vh;
+  width: 20vw;
+  height: 35vh;
+  margin: 20px;
 }
 
-.top-banner {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-  font-family: "Caudex";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 60px;
-  line-height: 70px;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-.logo {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-}
-
-.content-group {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.rating {
+.title {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 400;
-  font-size: 35px;
-  line-height: 40px;
-  text-align: center;
-  color: #FFFFFF;
-  padding: 1em;
-  width: 362px;
-  border: 1px solid white;
-  position: relative;
-  text-align: center;
-  max-width: 28vw;
-  height: 30vh;
-  margin: 20px;
-  /*background-color: #130452;
-  opacity: 0.5;*/
-  border-radius: 20px;
-}
-
-span {
-  color: #F5CB46;
-}
-
-.modern {
-  width: 28vw;
-  height: 30vh;
-  margin: 20px;
-  border-radius: 20px;
-}
-
-.stranger-group {
-  position: relative;
-  text-align: center;
-  color: white;
-  margin: 20px;
-}
-
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-  font-family: "Oswald";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 60px;
-  line-height: 71px;
+  font-size: 90px;
+  line-height: 100px;
   text-align: center;
   color: #FFFFFF;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 20px;
+  width: 20vw;
+  height: 25vh;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
-.strangers {
-  width: 60vw;
-  height: 50vh;
-  border-radius: 20px;
-}
-
-.word-card {
+.info {
   font-family: "Oswald";
   font-style: normal;
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 38px;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 59px;
   text-align: center;
   color: #FFFFFF;
   border: 1px solid white;
-  position: relative;
-  text-align: center;
+  width: 62vw;
   padding: 1em;
   margin: 20px;
   border-radius: 20px;
-  width: 62vw;
 }
 
-.movie-group {
-  width: 62vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
-.posters {
-  width: 201px;
-  height: 125px;
-  margin: 10px;
-  border-radius: 20px;
-}
-
-@media screen and (max-width: 1000px) {
-  .rating {
-    font-size: 25px;
+@media screen and (max-width: 1200px) {
+  .title {
+    font-size: 70;
+    line-height: 75px;
   }
 
-  .word-card {
-    font-size: 25px;
+  .info {
+    font-size: 30px;
+    line-height: 40px;
   }
 }
