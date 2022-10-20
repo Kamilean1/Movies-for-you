@@ -15,5 +15,161 @@ ul, li {
 }
 
 body {
-    background-color: var.$black-color;
+    /*background-color: var.$black-color;*/
+    background: rgb(88,72,223);
+    background: linear-gradient(90deg, rgba(88,72,223,1) 15%, rgba(6,24,106,1) 44%, rgba(0,0,0,1) 100%);
+}
+
+main{
+   /* max-width: 1500px;
+    width: 100%;
+    /*height: 800px;*/
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+.top{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rings {
+    width: 60vw;
+    height: 50vh;
+    border-radius: 20px;
+}
+
+.logo {
+    width: 10vw;
+    height: 15vh;
+}
+
+.top-banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-family: 'Caudex';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.logo {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.content-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rating {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 52px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 362px;
+    border: 1px solid white;
+    position: relative;
+    text-align: center;
+    width: 28vw;
+    height: 30vh;
+    margin: 20px;
+    /*background-color: #130452;
+    opacity: 0.5;*/
+    border-radius: 20px;
+}
+
+span {
+    color: #F5CB46;
+}
+
+.modern {
+    width: 28vw;
+    height: 30vh;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.stranger-group {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 71px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.strangers {
+    width: 60vw;
+    height: 50vh;
+    border-radius: 20px;
+}
+
+.word-card {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 46px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid white;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    width: 62vw;
+    height: 10vh;
+}
+
+.posters {
+    max-width: 201px;
+    width: 100%;
+    height: 125px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .rating {
+        font-size: 25px;
+    }
+    
+    .word-card {
+        font-size: 25px;
+    }
 }
