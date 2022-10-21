@@ -217,12 +217,44 @@ main {
           align-items: center;
 }
 
-.top-info {
+.top-banner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.title {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 59px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 30vw;
+  height: 30vh;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.review-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .logo {
@@ -231,9 +263,9 @@ main {
   margin: 20px;
 }
 
-container.info-box {
-  width: 40vw;
-  height: 35vh;
+container.review {
+  width: 50vw;
+  height: 50vh;
   background-color: #867ae7;
   border-radius: 20px;
   margin: 10px;
@@ -241,72 +273,57 @@ container.info-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.info {
+.card-title {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 300;
-  font-size: 38px;
-  line-height: 40px;
+  font-size: 40px;
+  line-height: 59px;
   text-align: center;
-  color: #FFFFFF;
-  width: 40vw;
-  height: 30vh;
-}
-
-.quote {
-  font-style: italic;
   color: #F5CB46;
 }
 
-.info-box-2 {
-  width: 60vw;
-  height: 50vh;
-}
-
-.main-info {
+.card-content {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 300;
-  font-size: 46px;
-  line-height: 68px;
+  font-size: 35px;
+  line-height: 52px;
   text-align: center;
+  font-style: italic;
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 1100px) {
-  .info {
-    font-size: 35px;
-    line-height: 40px;
-  }
+.rating {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 74px;
+  text-align: center;
+  color: #F5CB46;
 }
-@media screen and (max-width: 1000px) {
-  .info {
-    font-size: 30px;
-    line-height: 35px;
-  }
-}
-@media screen and (max-width: 900px) {
-  .info {
-    font-size: 27px;
-    line-height: 30px;
-  }
-}
-@media screen and (max-width: 800px) {
-  .info {
-    font-size: 25px;
-    line-height: 30px;
-  }
 
-  .main-info {
+.span-stars {
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 900px) {
+  .title {
     font-size: 35px;
     line-height: 40px;
   }
