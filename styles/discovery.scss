@@ -77,7 +77,7 @@ body {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding-bottom: 2vw;
+            padding-bottom: 8vh;
         }
         &__text-container {
             display: flex;
@@ -116,19 +116,20 @@ body {
             gap: 2vh;
             &__container {
                 display: flex;
-                padding: 0 12vw;
+                padding: 0 12vw 4vh 12vw;
                 gap: 6vw;
             }
             &__half {
                 display: flex;
                 flex-direction: column;
-                gap: 2vh;
+                width: 30vw;
                 &__title {
                     font-family: var.$text-font;
                     font-size: var.$size-small;
                     color: var.$white-color;
                     font-weight: var.$weight-medium;
                     text-transform: uppercase;
+                    padding-bottom: 4vh;
                 }
                 &__list {
                     list-style-type: circle;
