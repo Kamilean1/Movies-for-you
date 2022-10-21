@@ -1,0 +1,203 @@
+@use 'var';
+
+@import 'navs';
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a, button, input, textarea, select {
+    all: unset;
+}
+ul, li {
+    list-style-type: none;
+}
+
+body {
+    /*background-color: var.$black-color;*/
+    background: rgb(88,72,223);
+    background: linear-gradient(90deg, rgba(88,72,223,1) 15%, rgba(6,24,106,1) 44%, rgba(0,0,0,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 80vw;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+.top-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.logo {
+    width: 20vw;
+    height: 35vh;
+    margin: 20px;
+}
+
+.info {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 46px;
+    line-height: 68px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 30vw;
+    height: 30vh;
+    margin-bottom: 40px;
+}
+
+.actor-card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+container.actor-card {
+    width: 50vw;
+    height: 30vh;
+    background-color: #867ae7;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+.actor-pic {
+    border-radius: 20px;
+}
+
+.actor-card-text {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.name {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 55px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.winner {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #F5CB46;
+}
+
+.award {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 36px;
+    text-align: center;
+    font-style: italic;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .info {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    
+    .name {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .winner {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .award {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .award {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .winner {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .info {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    
+    .name {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .award {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .winner {
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .info {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    
+    .name {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .award {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .winner {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
