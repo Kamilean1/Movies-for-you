@@ -22,42 +22,6 @@ body {
     display: flex !important;
 }
 
-//search input// 
-.search {
-    height: 3vw;
-    width: 14vw;
-    background: var.$linear-bg-cards;
-    border-radius: 2vw;
-    position: relative;
-    &__input {
-        position: absolute;
-        right: 0;
-        height: 3vw;
-        width: 10vw;
-        &::placeholder {
-            font-family: var.$text-font;
-            font-size: var.$size-small;
-            color: var.$white-color;
-        }
-        &:hover {
-            //!!!!!!!!STYLE LATER
-        }
-        &:focus {
-            //!!!!!!!!STYLE LATER
-        }
-    }
-    &__label {
-        position: absolute;
-        top: 1vw;
-        left: 1vw;
-        i {
-            color: var.$white-color;
-            opacity: .6;
-            font-size: var.$size-regular;
-        }
-    }
-}
-
 .main {
     padding: 3.5vw 2vw 2vw 2vw;
     &__search {

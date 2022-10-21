@@ -9,6 +9,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 3;
 }
 .header .nav {
   padding: 5vw 2vw 2vw 2vw;
@@ -71,6 +72,7 @@ body {
   position: fixed;
   top: 0;
   right: 0;
+  z-index: 3;
 }
 .footer__container {
   width: 100%;
@@ -143,6 +145,45 @@ body {
   opacity: 1;
 }
 
+.search {
+  height: 3vw;
+  width: 14vw;
+  background: linear-gradient(rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.08) 100%);
+  border-radius: 2vw;
+  position: relative;
+}
+.search__input {
+  position: absolute;
+  right: 0;
+  height: 3vw;
+  width: 10vw;
+}
+.search__input::-moz-placeholder {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 16px;
+  color: #F2F2F2;
+}
+.search__input:-ms-input-placeholder {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 16px;
+  color: #F2F2F2;
+}
+.search__input::placeholder {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 16px;
+  color: #F2F2F2;
+}
+.search__label {
+  position: absolute;
+  top: 1vw;
+  left: 1vw;
+}
+.search__label i {
+  color: #F2F2F2;
+  opacity: 0.6;
+  font-size: 20px;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -159,4 +200,86 @@ ul, li {
 
 body {
   background-color: #080808;
+}
+
+.btn__vertical {
+  width: 2vw;
+  height: 20vh;
+  border: 1px solid #FF5F1F;
+  border-radius: 0 1vw 1vw 0;
+  background: linear-gradient(rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.24) 100%);
+  color: #FF5F1F;
+  text-align: center;
+}
+.btn__vertical:hover {
+  cursor: pointer;
+}
+
+.main {
+  width: 100%;
+  max-width: 1900px;
+  height: 100%;
+  padding: 0 8vw 0 18vw;
+  background: linear-gradient(0deg, rgba(8, 8, 8, 0.2), rgba(8, 8, 8, 0.2)), linear-gradient(180deg, rgba(8, 8, 8, 0.5) 0%, rgba(8, 8, 8, 0.5) 85.73%, rgba(229, 9, 20, 0.01) 100%);
+}
+.main__search {
+  padding: 3.5vw 1vw;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.main__news {
+  padding: 0 8vw 0 8vw;
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+.main__news__title {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  color: #FF5F1F;
+  font-weight: 400;
+}
+.main__news__cards {
+  display: flex;
+  gap: 2vw;
+  width: 100%;
+}
+.main__news__left {
+  width: 100%;
+  border-radius: 1vw;
+  background-image: url(../img/netflix/netflix-img-index-1.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main__news__right {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+.main__news__right__card {
+  width: 14vw;
+  height: 20vh;
+  border-radius: 1vw;
+  display: flex;
+  justify-content: space-between;
+}
+.main__news__right__card:first-child {
+  background-image: url(../img/netflix/netflix-img-index-2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main__news__right__title {
+  width: 100%;
+  height: 100%;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #F2F2F2;
+  padding: 7vw 0 1vw 1vw;
+  padding-left: 1vw;
+  align-self: flex-end;
+  border-radius: 1vw 0 0 1vw;
+  background-color: rgba(8, 8, 8, 0.5);
+  text-justify: bottom;
 }/*# sourceMappingURL=netflix-index.css.map */
