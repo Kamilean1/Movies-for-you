@@ -224,7 +224,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 2vw;
+  padding-bottom: 8vh;
 }
 .main__card__text-container {
   display: flex;
@@ -264,13 +264,13 @@ body {
 }
 .main__card__bottom__container {
   display: flex;
-  padding: 0 12vw;
+  padding: 0 12vw 4vh 12vw;
   gap: 6vw;
 }
 .main__card__bottom__half {
   display: flex;
   flex-direction: column;
-  gap: 2vh;
+  width: 30vw;
 }
 .main__card__bottom__half__title {
   font-family: "Merriweather Sans", sans-serif;
@@ -278,6 +278,7 @@ body {
   color: #F2F2F2;
   font-weight: 500;
   text-transform: uppercase;
+  padding-bottom: 4vh;
 }
 .main__card__bottom__half__list {
   list-style-type: circle;
