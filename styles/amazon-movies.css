@@ -248,11 +248,11 @@ container.info-box {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 300;
-  font-size: 40px;
-  line-height: 59px;
+  font-size: 35px;
+  line-height: 50px;
   text-align: center;
   color: white;
-  padding: 1em;
+  padding: 0.5em;
 }
 
 .movie-group {
