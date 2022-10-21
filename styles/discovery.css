@@ -9,6 +9,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 3;
 }
 .header .nav {
   padding: 5vw 2vw 2vw 2vw;
@@ -71,6 +72,7 @@ body {
   position: fixed;
   top: 0;
   right: 0;
+  z-index: 3;
 }
 .footer__container {
   width: 100%;
@@ -143,28 +145,6 @@ body {
   opacity: 1;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a, button, input, textarea, select {
-  all: unset;
-}
-
-ul, li {
-  list-style-type: none;
-}
-
-body {
-  background-color: #080808;
-}
-
-.show {
-  display: flex !important;
-}
-
 .search {
   height: 3vw;
   width: 14vw;
@@ -202,6 +182,28 @@ body {
   color: #F2F2F2;
   opacity: 0.6;
   font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a, button, input, textarea, select {
+  all: unset;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+body {
+  background-color: #080808;
+}
+
+.show {
+  display: flex !important;
 }
 
 .main {

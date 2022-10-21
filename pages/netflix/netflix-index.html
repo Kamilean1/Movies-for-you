@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--LINKS TO STYLES-->
     <link rel="stylesheet" href="../../styles/normalize.css">
-    <!--<link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">-->
     <link rel="stylesheet" href="../../styles/netflix-index.css">
     
 <!--FONTS-->
@@ -68,7 +67,67 @@
             </a>
         </nav>
     </header>
-    <main class="main"></main>
+    <main class="main">
+        <div class="main__search">
+            <div class="search">
+                <label for="search" class="main__search__label search__label">
+                    <i class="fa-solid fa-magnifying-glass"></i>   
+                </label>
+                <input type="search" placeholder="search..." class="main__search__input search__input" id="search">
+            </div>
+        </div>
+        <section class="main__news">
+            <h3 class="main__news__title">
+                NEWS
+            </h3>
+            <div class="main__news__cards">
+                <div class="main__news__left">
+                    <h2 class="main__news__left__title">
+                        Netflix introduces ads
+                    </h2>
+                    <p class="main__news__left__subtitle">
+                        We know the price of the new package
+                    </p>
+                    <button class="btn__primary">
+                        <p>read more</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="main__news__right">
+                    <div class="main__news__right__card">
+                        <h4 class="main__news__right__title">
+                            New in October
+                        </h4>
+                        <a href="#">
+                            <button class="btn__vertical">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="main__news__right__card">
+                        <h4 class="main__news__right__title">
+                            New in October
+                        </h4>
+                        <a href="#">
+                            <button class="btn__vertical">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="main__news__right__card">
+                        <h4 class="main__news__right__title">
+                            New in October
+                        </h4>
+                        <a href="#">
+                            <button class="btn__vertical">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer class="footer">
         <div class="footer__container">
             <div class="footer__user">
