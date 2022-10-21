@@ -217,22 +217,13 @@ main {
           align-items: center;
 }
 
-.top {
+.top-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-}
-
-.modern {
-  width: 40vw;
-  height: 45vh;
   margin: 20px;
-  border-radius: 20px;
 }
 
 .logo {
@@ -241,98 +232,41 @@ main {
   margin: 20px;
 }
 
-container.info-box {
-  width: 30vw;
-  height: 30vh;
-  background-color: #867ae7;
-  border-radius: 20px;
-  margin: 20px;
-  padding: 1em;
-}
-
-.info-group {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
 .info {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 300;
-  font-size: 36px;
-  line-height: 53px;
+  font-size: 46px;
+  line-height: 68px;
   text-align: center;
   color: #FFFFFF;
-  /* width: 30vw;
-   height: 30vh;*/
-}
-
-.rings {
   width: 30vw;
   height: 30vh;
-  border-radius: 20px;
+  margin-bottom: 40px;
 }
 
-.ring-group {
-  position: relative;
-  text-align: center;
-  color: white;
-  padding: 1em;
+.actor-card-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
 }
 
-.ring-title {
-  position: absolute;
-  bottom: 1em;
-  left: 1em;
-  font-family: "Caudex";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 50px;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-.nine-group {
-  position: relative;
-  text-align: center;
-  color: white;
-  padding: 1em;
-}
-
-.nine {
-  width: 30vw;
-  height: 30vh;
-  border-radius: 20px;
-}
-
-.nine-title {
-  position: absolute;
-  top: 1em;
-  left: 1em;
-  font-family: "Oswald";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 50px;
-  text-align: center;
-  color: #FFFFFF;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-container.info-box-2 {
-  width: 30vw;
+container.actor-card {
+  width: 50vw;
   height: 30vh;
   background-color: #867ae7;
   border-radius: 20px;
-  margin: 20px;
+  margin: 10px;
   padding: 1em;
-}
-
-.info-group-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -340,58 +274,129 @@ container.info-box-2 {
       flex-wrap: wrap;
 }
 
-.info-2 {
+.actor-pic {
+  border-radius: 20px;
+}
+
+.actor-card-text {
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.name {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 300;
-  font-size: 36px;
-  line-height: 53px;
+  font-size: 50px;
+  line-height: 55px;
   text-align: center;
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 1100px) {
+.winner {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #F5CB46;
+}
+
+.award {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 36px;
+  text-align: center;
+  font-style: italic;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1200px) {
   .info {
-    font-size: 36px;
-    line-height: 39px;
+    font-size: 40px;
+    line-height: 45px;
   }
 
-  .info-2 {
-    font-size: 36px;
-    line-height: 39px;
+  .name {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .winner {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .award {
+    font-size: 20px;
+    line-height: 30px;
   }
 }
 @media screen and (max-width: 1000px) {
-  .info-2 {
-    font-size: 34px;
-    line-height: 37px;
+  .award {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .winner {
+    font-size: 25px;
+    line-height: 35px;
   }
 }
 @media screen and (max-width: 900px) {
   .info {
-    font-size: 32px;
-    line-height: 36px;
-  }
-
-  .info-2 {
-    font-size: 32px;
-    line-height: 36px;
-  }
-}
-@media screen and (max-width: 800px) {
-  .ring-title {
     font-size: 35px;
     line-height: 40px;
-    right: 1em;
   }
 
+  .name {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .award {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .winner {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 900px) {
   .info {
     font-size: 30px;
-    line-height: 33px;
+    line-height: 35px;
   }
 
-  .info-2 {
-    font-size: 29px;
-    line-height: 33px;
+  .name {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .award {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .winner {
+    font-size: 18px;
+    line-height: 20px;
   }
 }
