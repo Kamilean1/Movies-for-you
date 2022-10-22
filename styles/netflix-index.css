@@ -1,3 +1,136 @@
+.title__main {
+  font-family: "Oswald", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  color: #F2F2F2;
+  margin-bottom: 2vh;
+}
+.title__secondary {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #F2F2F2;
+}
+
+.subtitle {
+  font-family: "Exo", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: #F2F2F2;
+  opacity: 0.8;
+  font-style: italic;
+}
+
+.btn__vertical {
+  width: 2vw;
+  height: 20vh;
+  border: 1px solid #FF5F1F;
+  border-radius: 0 1vw 1vw 0;
+  background: linear-gradient(rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.24) 100%);
+  color: #FF5F1F;
+  text-align: center;
+}
+.btn__vertical:hover {
+  cursor: pointer;
+}
+.btn__horizontal {
+  border-radius: 1vw;
+  background: linear-gradient(rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.24) 100%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 700;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 16px;
+  color: #080808;
+}
+.btn__horizontal:hover {
+  cursor: pointer;
+}
+.btn__horizontal__left {
+  align-self: center;
+  padding-left: 1vw;
+}
+.btn__horizontal__right {
+  padding: 1vw;
+}
+
+.news {
+  padding: 0 8vw 0 8vw;
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+.news__title {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  color: #FF5F1F;
+  font-weight: 400;
+}
+.news__cards {
+  display: flex;
+  gap: 2vw;
+  width: 100%;
+}
+.news__left {
+  width: 100%;
+  border-radius: 1vw;
+  padding: 12vh 3vw 3vh 3vw;
+  display: flex;
+  flex-direction: column;
+}
+.news__right {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+.news__right__card {
+  width: 14vw;
+  height: 20vh;
+  border-radius: 1vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top {
+  padding: 0 8vw 0 8vw;
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+.top__title {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  color: #FF5F1F;
+  font-weight: 400;
+}
+.top__title span {
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 1vw;
+}
+.top__cards {
+  display: flex;
+  gap: 2vw;
+  width: 100%;
+}
+.top__card {
+  height: 35vh;
+  width: 15vw;
+  border-radius: 1vw;
+  display: flex;
+  align-items: flex-end;
+}
+.top__load {
+  border-radius: 1vw;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+.top__load a {
+  width: 100%;
+}
+
 body {
   background-color: #080808;
 }
@@ -202,17 +335,8 @@ body {
   background-color: #080808;
 }
 
-.btn__vertical {
-  width: 2vw;
-  height: 20vh;
-  border: 1px solid #FF5F1F;
-  border-radius: 0 1vw 1vw 0;
-  background: linear-gradient(rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.24) 100%);
-  color: #FF5F1F;
-  text-align: center;
-}
-.btn__vertical:hover {
-  cursor: pointer;
+.netflix {
+  opacity: 1;
 }
 
 .main {
@@ -228,58 +352,88 @@ body {
   display: flex;
   justify-content: flex-end;
 }
-.main__news {
-  padding: 0 8vw 0 8vw;
-  display: flex;
-  flex-direction: column;
-  gap: 4vh;
-}
-.main__news__title {
-  font-family: "Oswald", sans-serif;
-  font-size: 24px;
-  color: #FF5F1F;
-  font-weight: 400;
-}
-.main__news__cards {
-  display: flex;
-  gap: 2vw;
-  width: 100%;
-}
 .main__news__left {
-  width: 100%;
-  border-radius: 1vw;
   background-image: url(../img/netflix/netflix-img-index-1.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
-.main__news__right {
-  display: flex;
-  flex-direction: column;
-  gap: 1vw;
-}
-.main__news__right__card {
-  width: 14vw;
-  height: 20vh;
-  border-radius: 1vw;
-  display: flex;
-  justify-content: space-between;
+.main__news__left__btn {
+  margin-top: 30vh;
+  align-self: flex-start;
+  justify-self: flex-end;
+  color: #F2F2F2;
 }
 .main__news__right__card:first-child {
   background-image: url(../img/netflix/netflix-img-index-2.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
+.main__news__right__card:nth-child(2) {
+  background-image: url(../img/netflix/netflix-img-index-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main__news__right__card:nth-child(3) {
+  background-image: url(../img/netflix/netflix-img-index-4.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .main__news__right__title {
   width: 100%;
   height: 100%;
-  font-family: "Merriweather Sans", sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  color: #F2F2F2;
   padding: 7vw 0 1vw 1vw;
-  padding-left: 1vw;
   align-self: flex-end;
   border-radius: 1vw 0 0 1vw;
   background-color: rgba(8, 8, 8, 0.5);
   text-justify: bottom;
+}
+.main__top-movies {
+  margin-top: 8vh;
+}
+.main__top-movies__card:first-child {
+  background-image: url(../img/netflix/films/forrest-gump-main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main__top-movies__card:nth-child(2) {
+  background-image: url(../img/netflix/films/inception-main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main__top-movies__card:nth-child(3) {
+  background-image: url(../img/netflix/films/seven-pounds-main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main__top-movies__btn {
+  width: 15vw;
+}
+.main__top-movies__btn__load {
+  width: 100%;
+  justify-content: center !important;
+}
+.main__top-series {
+  margin: 8vh 0;
+}
+.main__top-series__card:first-child {
+  background-image: url(../img/netflix/series/breaking-bad-main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main__top-series__card:nth-child(2) {
+  background-image: url(../img/netflix/series/arcane-main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main__top-series__card:nth-child(3) {
+  background-image: url(../img/netflix/series/black-mirror-main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main__top-series__btn {
+  width: 15vw;
+}
+.main__top-series__btn__load {
+  width: 100%;
+  justify-content: center !important;
 }/*# sourceMappingURL=netflix-index.css.map */

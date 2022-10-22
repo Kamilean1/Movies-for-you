@@ -1,0 +1,141 @@
+@use 'var';
+
+//TEXTS// 
+.title {
+    &__main {
+        font-family: var.$logo-font;
+        font-size: var.$size-extra-large;
+        font-weight: var.$weight-regular;
+        color: var.$white-color;
+        margin-bottom: 2vh;
+    }
+    &__secondary {
+        font-family: var.$text-font;
+        font-size: var.$size-extra-small;
+        font-weight: var.$weight-semi-bold;
+        color: var.$white-color;
+    }
+}
+.subtitle {
+    font-family: var.$subtitle-font;
+    font-size: var.$size-extra-small;
+    font-weight: var.$weight-light;
+    color: var.$white-color;
+    opacity: .8;
+    font-style: italic;
+}
+
+//BTNs//
+.btn {
+    &__vertical {
+        width: 2vw;
+        height: 20vh;
+        border: 1px solid var.$accent-color;
+        border-radius: 0 1vw 1vw 0;
+        background: var.$linear-bg-under-titles;
+        color: var.$accent-color;
+        text-align: center;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    &__horizontal {
+        border-radius: 1vw;
+        background: var.$linear-bg-under-titles;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        &:hover {
+            cursor: pointer;
+        }
+        font-weight: var.$weight-bold;
+        font-family: var.$text-font;
+        font-size: var.$size-small;
+        color: var.$black-color;
+        &__left {
+            align-self: center;
+            padding-left: 1vw;
+        }
+        &__right {
+            padding: 1vw;
+        }
+    }
+}
+
+//NEWS section//
+.news {
+    padding: 0 8vw 0 8vw;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    &__title {
+        font-family: var.$logo-font;
+        font-size: var.$size-medium;
+        color: var.$accent-color;
+        font-weight: var.$weight-regular;
+    }
+    &__cards {
+        display: flex;
+        gap: 2vw;
+        width: 100%;
+    }
+    &__left {
+        width: 100%;
+        border-radius: 1vw;
+        padding: 12vh 3vw 3vh 3vw;
+        display: flex;
+        flex-direction: column;
+    }
+    &__right {
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        &__card {
+            width: 14vw;
+            height: 20vh;
+            border-radius: 1vw;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+//TOP section// 
+.top {
+    padding: 0 8vw 0 8vw;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    &__title {
+        font-family: var.$logo-font;
+        font-size: var.$size-medium;
+        color: var.$accent-color;
+        font-weight: var.$weight-regular;
+        span {
+            font-size: var.$size-regular;
+            font-weight: var.$weight-light;
+            padding-left: 1vw;
+        }
+    }
+    &__cards {
+        display: flex;
+        gap: 2vw;
+        width: 100%;
+    }
+    &__card {
+        height: 35vh;
+        width: 15vw;
+        border-radius: 1vw;
+        display: flex;
+        align-items: flex-end;
+    }
+    &__load {
+        border-radius: 1vw;
+        display: flex;
+        align-items: flex-end;
+        width: 100%;
+        a {
+            width: 100%;
+        }
+    }
+}
