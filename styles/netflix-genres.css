@@ -631,6 +631,10 @@ body {
   opacity: 1;
 }
 
+.hide {
+  display: none;
+}
+
 .main {
   width: 100%;
   max-width: 1900px;
@@ -642,4 +646,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: flex-end;
-}/*# sourceMappingURL=netflix-ranking.css.map */
+}
+.main__genres {
+  margin-bottom: 4vh;
+}/*# sourceMappingURL=netflix-genres.css.map */

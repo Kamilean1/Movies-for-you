@@ -320,3 +320,101 @@
         }
     }
 }
+
+//DATABASE section// 
+.database {
+    padding: 0 8vw 4vh 8vw;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    &__title {
+        font-family: var.$logo-font;
+        font-size: var.$size-medium;
+        color: var.$accent-color;
+        font-weight: var.$weight-regular;
+    }
+    &__container {
+        padding-top: 4vh;
+        display: flex;
+        gap: 2vw;
+        &__left {
+            border: 1px solid var.$white-color;
+            border-radius: 1vw;
+            padding: 2vw;
+            opacity: .4;
+        }
+        &__right {
+            width: 100%;
+        }
+    }
+    &__cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 2vw;
+    }
+    &__card {
+        position: relative;
+        width: 15vw;
+        height: 35vh;
+        img {
+            width: 15vw;
+            height: 35vh;
+            border-radius: 1vw;
+        }
+    }
+    &__btn {
+        z-index: 3;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+
+//UPCOMING section// 
+.upcoming {
+    padding: 0 8vw 4vh 8vw;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    &__title {
+        font-family: var.$logo-font;
+        font-size: var.$size-medium;
+        color: var.$accent-color;
+        font-weight: var.$weight-regular;
+    }
+    &__cards {
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+        width: 100%;
+    }
+    &__card {
+        height: 15vh;
+        background: var.$linear-bg-cards;
+        border-radius: 1vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__img {
+            height: 15vh;
+            width: 15vw;
+            border-radius: 1vw;
+            object-fit: cover;
+        }
+        &__btn {
+            height: 15vh;
+            width: 15vh;
+        }
+        &__title, &__date {
+            font-size: var.$size-medium;
+        }
+        &__date {
+            width: 6vw;
+        }
+        &__title {
+            width: 20vw;
+        }
+    }
+}
