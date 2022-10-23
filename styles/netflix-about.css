@@ -179,6 +179,36 @@
   width: 6vw;
 }
 
+.genres {
+  padding: 0 8vw 0 8vw;
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+.genres__title {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  color: #FF5F1F;
+  font-weight: 400;
+}
+.genres__cards {
+  display: flex;
+  gap: 2vw;
+  width: 100%;
+}
+.genres__card {
+  width: 100%;
+  border-radius: 1vw;
+  background: linear-gradient(rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.08) 100%);
+  text-align: center;
+  opacity: 0.7;
+  padding: 3vh 0;
+}
+.genres__card:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
 body {
   background-color: #080808;
 }
