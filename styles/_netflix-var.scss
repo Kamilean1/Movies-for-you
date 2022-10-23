@@ -67,6 +67,19 @@
             padding: 1vw;
         }
     }
+    &__secondary {
+        display: flex;
+        gap: 1vw;
+        font-size: var.$size-extra-small;
+        font-family: var.$text-font;
+        font-weight: var.$weight-light;
+        opacity: .7;
+        color: var.$white-color;
+        &:hover {
+            cursor: pointer;
+            opacity: 1;
+        }
+    }
 }
 
 //NEWS section//
@@ -219,6 +232,91 @@
         &:hover {
             cursor: pointer;
             opacity: 1;
+        }
+    }
+}
+
+//RANKING section// 
+.ranking {
+    padding: 0 8vw 0 8vw;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    &__title {
+        font-family: var.$logo-font;
+        font-size: var.$size-medium;
+        color: var.$accent-color;
+        font-weight: var.$weight-regular;
+    }
+    &__cards {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        padding-bottom: 4vh;
+    }
+    &__card {
+        height: 35vh;
+        border-radius: 1vw;
+        display: flex;
+        justify-content: space-between;
+        background: var.$linear-bg-cards;
+        position: relative;
+        &__img {
+            border-radius: 1vw;
+            width: 12vw;
+        }
+        &__left, &__right, &__middle {
+            padding: 2vw;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        &__left {
+            width: 10vw;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__middle {
+            width: 40vw;
+            gap: 4vh;
+        }
+        &__right {
+            width: 20vw;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__rating {
+            display: flex;
+            gap: 1vw;
+        }
+        &__rating, &__title, &__year {
+            font-family: var.$text-font;
+            font-size: var.$size-medium;
+            color: var.$white-color;
+        }
+        &__place {
+            position: absolute;
+            top: 1vw;
+            left: 1vw;
+            font-family: var.$text-font;
+            font-size: var.$size-medium;
+            color: var.$accent-color;
+            background-color: var.$black-color;
+            text-align: center;
+            border-radius: .5vw;
+            padding: .5vw;
+            font-weight: var.$weight-bold;
+        }
+        &__text {
+            font-size: var.$size-small;
+            line-height: 22px;
+        }
+        &__btn {
+            background-color: var.$black-color;
+            border-radius: 1vw;
+            padding: 1vw;
+            text-align: center;
         }
     }
 }
