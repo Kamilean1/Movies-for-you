@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--LINKS TO STYLES-->
     <link rel="stylesheet" href="../../styles/normalize.css">
-    <!--<link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">-->
     <link rel="stylesheet" href="../../styles/netflix-index.css">
     
 <!--FONTS-->
@@ -68,7 +67,177 @@
             </a>
         </nav>
     </header>
-    <main class="main"></main>
+    <main class="main">
+        <div class="main__search">
+            <div class="search">
+                <label for="search" class="main__search__label search__label">
+                    <i class="fa-solid fa-magnifying-glass"></i>   
+                </label>
+                <input type="search" placeholder="search..." class="main__search__input search__input" id="search">
+            </div>
+        </div>
+        <section class="main__news news">
+            <h3 class="main__news__title news__title">
+                NEWS
+            </h3>
+            <div class="main__news__cards news__cards">
+                <div class="main__news__left news__left">
+                    <h2 class="main__news__left__title title__main">
+                        Netflix introduces ads
+                    </h2>
+                    <p class="main__news__left__subtitle subtitle">
+                        We know the price of the new package
+                    </p>
+                    <button class="main__news__left__btn btn__primary">
+                        <p>read more</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="main__news__right news__right">
+                    <div class="main__news__right__card news__right__card">
+                        <h4 class="main__news__right__title title__secondary">
+                            New in October
+                        </h4>
+                        <a href="#">
+                            <button class="btn__vertical">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="main__news__right__card news__right__card">
+                        <h4 class="main__news__right__title title__secondary">
+                            Season 5 of "The Crown"
+                        </h4>
+                        <a href="#">
+                            <button class="btn__vertical">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="main__news__right__card news__right__card">
+                        <h4 class="main__news__right__title title__secondary">
+                            "Wednesday" release soon
+                        </h4>
+                        <a href="#">
+                            <button class="btn__vertical">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__top-movies top">
+            <h3 class="main__top-movies__title top__title">
+                TOP 10 <span class="top__title__span">movies</span>
+            </h3>
+            <div class="main__top-movies__cards top__cards">
+                <div class="main__top-movies__card top__card">
+                    <a href="#">
+                        <button class="main__top-movies__btn btn__horizontal">
+                            <p class="btn__horizontal__left">
+                                Forrest Gump
+                            </p>
+                            <p class="btn__horizontal__right">
+                                <i class="fa-solid fa-star"></i>
+                                8.5
+                            </p>
+                        </button>
+                    </a>
+                </div>
+                <div class="main__top-movies__card top__card">
+                    <a href="#">
+                        <button class="main__top-movies__btn btn__horizontal">
+                            <p class="btn__horizontal__left">
+                                Inception
+                            </p>
+                            <p class="btn__horizontal__right">
+                                <i class="fa-solid fa-star"></i>
+                                8.3
+                            </p>
+                        </button>
+                    </a>
+                </div>
+                <div class="main__top-movies__card top__card">
+                    <a href="#">
+                        <button class="main__top-movies__btn btn__horizontal">
+                            <p class="btn__horizontal__left">
+                                Seven Pounds
+                            </p>
+                            <p class="btn__horizontal__right">
+                                <i class="fa-solid fa-star"></i>
+                                8.0
+                            </p>
+                        </button>
+                    </a>
+                </div>
+                <div class="main__top-movies__load top__load">
+                    <a href="">
+                        <button class="main__top-movies__btn__load btn__horizontal">
+                            <p class="btn__horizontal__right">
+                                ...
+                            </p>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="main__top-series top">
+            <h3 class="main__top-series__title top__title">
+                TOP 10 <span class="top__title__span">series</span>
+            </h3>
+            <div class="main__top-series__cards top__cards">
+                <div class="main__top-series__card top__card">
+                    <a href="#">
+                        <button class="main__top-series__btn btn__horizontal">
+                            <p class="btn__horizontal__left">
+                                Breaking Bad
+                            </p>
+                            <p class="btn__horizontal__right">
+                                <i class="fa-solid fa-star"></i>
+                                8.8
+                            </p>
+                        </button>
+                    </a>
+                </div>
+                <div class="main__top-series__card top__card">
+                    <a href="#">
+                        <button class="main__top-series__btn btn__horizontal">
+                            <p class="btn__horizontal__left">
+                                Arcane
+                            </p>
+                            <p class="btn__horizontal__right">
+                                <i class="fa-solid fa-star"></i>
+                                8.6
+                            </p>
+                        </button>
+                    </a>
+                </div>
+                <div class="main__top-series__card top__card">
+                    <a href="#">
+                        <button class="main__top-series__btn btn__horizontal">
+                            <p class="btn__horizontal__left">
+                                Black Mirror
+                            </p>
+                            <p class="btn__horizontal__right">
+                                <i class="fa-solid fa-star"></i>
+                                8.3
+                            </p>
+                        </button>
+                    </a>
+                </div>
+                <div class="main__top-series__load top__load">
+                    <a href="">
+                        <button class="main__top-series__btn__load btn__horizontal">
+                            <p class="btn__horizontal__right">
+                                ...
+                            </p>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer class="footer">
         <div class="footer__container">
             <div class="footer__user">
@@ -77,7 +246,7 @@
                 </a>
             </div>
             <div class="footer__services">
-                <div class="footer__icon">
+                <div class="footer__icon netflix">
                     <a href="#">
                         <img src="../../img/navs/netflix-icon-round.svg" alt="netflix logo">
                     </a>

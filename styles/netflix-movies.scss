@@ -20,9 +20,28 @@ body {
     background-color: var.$black-color;
 }
 
-.netflix {
-    opacity: 1;
+//header changes// 
+.link {
+    &__about {
+        border-radius: 1vw;
+        border-bottom: 3px solid var.$accent-color;
+    }
 }
+.list {
+    padding-left: 4vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    &__item {
+        opacity: .6;
+        font-size: var.$size-small;
+        &:hover {
+            cursor: pointer;
+            opacity: 1;
+        }
+    }
+}
+
 .main {
     width: 100%;
     max-width: 1900px;
@@ -36,7 +55,7 @@ body {
     }
     &__news {
         &__left {
-            background-image: url(../img/netflix/netflix-img-index-1.webp);
+            background-image: url(../img/netflix/netflix-img-movies-2.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             &__btn {
@@ -49,17 +68,17 @@ body {
         &__right {
             &__card {
                 &:first-child {
-                    background-image: url(../img/netflix/netflix-img-index-2.png);
+                    background-image: url(../img/netflix/netflix-img-movies-3.jpg);
                     background-size: cover;
                     background-repeat: no-repeat;
                 }
                 &:nth-child(2) {
-                    background-image: url(../img/netflix/netflix-img-index-3.jpg);
+                    background-image: url(../img/netflix/netflix-img-movies-4.jpg);
                     background-size: cover;
                     background-repeat: no-repeat;
                 }
                 &:nth-child(3) {
-                    background-image: url(../img/netflix/netflix-img-index-4.webp);
+                    background-image: url(../img/netflix/netflix-img-movies-5.jpg);
                     background-size: cover;
                     background-repeat: no-repeat;
                 }
@@ -75,8 +94,11 @@ body {
             }
         }
     }
-    &__top-movies {
+    &__genres {
         margin-top: 8vh;
+    }
+    &__top-movies {
+        margin: 8vh 0;
         &__card {
             &:first-child {
                 background-image: url(../img/netflix/films/forrest-gump-main.jpg);
@@ -90,33 +112,6 @@ body {
             }
             &:nth-child(3) {
                 background-image: url(../img/netflix/films/seven-pounds-main.jpg);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-        }
-        &__btn {
-            width: 15vw;
-            &__load {
-                width: 100%;
-                justify-content: center !important;
-            }
-        }
-    }
-    &__top-series {
-        margin: 8vh 0;
-        &__card {
-            &:first-child {
-                background-image: url(../img/netflix/series/breaking-bad-main.jpg);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            &:nth-child(2) {
-                background-image: url(../img/netflix/series/arcane-main.jpg);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            &:nth-child(3) {
-                background-image: url(../img/netflix/series/black-mirror-main.jpg);
                 background-size: cover;
                 background-repeat: no-repeat;
             }
