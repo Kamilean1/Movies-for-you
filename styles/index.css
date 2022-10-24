@@ -11,14 +11,16 @@
 }
 
 .title {
-  font-family: "Oswald";
+  font-family: "Oswald", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 128px;
   line-height: 190px;
   text-align: center;
-  color: #F2F2F2;
-  align-self: center;
+  color: #FFFFFF;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   height: 168px;
   max-width: 920px;
   width: 100%;
@@ -39,12 +41,12 @@ section {
 }
 
 .info {
-  font-family: "Merriweather Sans";
+  font-family: "Merriweather Sans", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 36px;
   line-height: 60px;
-  color: #F2F2F2;
+  color: #FFFFFF;
   height: 30vh;
   width: 30vw;
 }
@@ -57,7 +59,7 @@ section {
 .btn-one {
   width: 193px;
   height: 48px;
-  font-family: "Merriweather Sans";
+  font-family: "Merriweather Sans", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -75,13 +77,13 @@ section {
   justify-content: space-evenly;
 }
 
-a:link {
+.link > a {
   text-decoration: none;
 }
 
 .btn-one:hover {
   background: #FF5F1F;
-  color: #1E1E1E;
+  color: #080808;
 }
 
 .span-img {
@@ -98,7 +100,7 @@ a:link {
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
   border-radius: 24px;
-  font-family: "Merriweather Sans";
+  font-family: "Merriweather Sans", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
