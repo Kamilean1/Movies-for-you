@@ -321,13 +321,15 @@
 .database__container {
   padding-top: 4vh;
   display: flex;
-  gap: 2vw;
+  gap: 1vw;
 }
 .database__container__left {
   border: 1px solid #F2F2F2;
   border-radius: 1vw;
   padding: 2vw;
   opacity: 0.4;
+  width: 9vw;
+  text-align: center;
 }
 .database__container__right {
   width: 100%;
