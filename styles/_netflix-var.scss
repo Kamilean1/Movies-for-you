@@ -336,12 +336,14 @@
     &__container {
         padding-top: 4vh;
         display: flex;
-        gap: 2vw;
+        gap: 1vw;
         &__left {
             border: 1px solid var.$white-color;
             border-radius: 1vw;
             padding: 2vw;
             opacity: .4;
+            width: 9vw;
+            text-align: center;
         }
         &__right {
             width: 100%;
