@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--LINKS TO STYLES-->
+    <link rel="stylesheet" href="../../styles/normalize.css">
+    <link rel="stylesheet" href="../../styles/netflix-ranking.css">   
+<!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&family=Merriweather+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+<!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/90116f7b33.js" crossorigin="anonymous"></script>
+<!--TITLE-->
+    <title>Movies For You || Netflix - TOP 10 series</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="../discover.html" class="nav__logo">
+                <span class="nav__logo__m">M</span>ovies For You
+            </a>
+            <ul class="nav__links">
+                <li>
+                    <a href="netflix-about.html" class="nav__link">
+                        <i class="fa-solid fa-pen"></i>
+                        <p class="nav__link__text">about</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="netflix-movies.html" class="nav__link">
+                        <i class="fa-solid fa-film"></i>
+                    <p class="nav__link__text">movies</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="netflix-series.html" class="nav__link link__about">
+                        <i class="fa-solid fa-clapperboard"></i>
+                    <p class="nav__link__text">series</p>
+                    </a>
+                </li>
+                <li>
+                    <ul class="list">
+                        <li>
+                            <a href="netflix-series-ranking.html" class="list__item text active">
+                                ranking
+                            </a>
+                        </li>
+                        <li>
+                            <a href="netflix-series-genres.html" class="list__item text">
+                                genres
+                            </a>
+                        </li>
+                        <li>
+                            <a href="netflix-series-upcoming.html" class="list__item text">
+                                upcoming
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="netflix-actors.html" class="nav__link">
+                        <i class="fa-solid fa-star"></i>
+                    <p class="nav__link__text">actors</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="netflix-producers.html" class="nav__link">
+                        <i class="fa-solid fa-video"></i>
+                    <p class="nav__link__text">producers</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="netflix-reviews.html" class="nav__link">
+                        <i class="fa-solid fa-comments"></i>
+                    <p class="nav__link__text">reviews</p>
+                    </a>
+                </li>
+            </ul>
+            <a href="netflix.com" target="_blank" class="nav__streaming-service-logo">
+                <img src="../../img/navs/netflix-logo.png" alt="netflix logo">
+            </a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="main__search">
+            <div class="search">
+                <label for="search" class="main__search__label search__label">
+                    <i class="fa-solid fa-magnifying-glass"></i>   
+                </label>
+                <input type="search" placeholder="search..." class="main__search__input search__input" id="search">
+            </div>
+        </div>
+        <section class="main__ranking ranking">
+            <h3 class="main__ranking__title ranking__title">
+                TOP 10 series
+            </h3>
+            <div class="main__ranking__cards ranking__cards">
+                <div class="main__ranking__card ranking__card">
+                    <div class="ranking__card__place">
+                        1
+                    </div>
+                    <img src="../../img/netflix/series/breaking-bad-main.jpg" alt="breaking bad serie poster" class="ranking__card__img">
+                    <div class="ranking__card__left">
+                        <div class="ranking__card__rating">
+                            <i class="fa-solid fa-star"></i>
+                            <p>8.8</p>
+                        </div>
+                    </div>
+                    <div class="ranking__card__middle">
+                        <h3 class="ranking__card__title">
+                            Breaking Bad
+                        </h3>
+                        <p class="ranking__card__text text">
+                            A high school chemistry teacher diagnosed with inoperable 
+                            lung cancer turns to manufacturing and selling methamphetamine 
+                            in order to secure his family's future.
+                        </p>
+                    </div>
+                    <div class="ranking__card__right">
+                        <p class="ranking__card__year">
+                            2008-13
+                        </p>
+                        <a href="series/netflix-breaking.html">
+                            <button class="ranking__card__btn btn__secondary">
+                                <p>read more</p>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="main__ranking__card ranking__card">
+                    <div class="ranking__card__place">
+                        2
+                    </div>
+                    <img src="../../img/netflix/series/arcane-main.jpg" alt="arcane serie poster" class="ranking__card__img">
+                    <div class="ranking__card__left">
+                        <div class="ranking__card__rating">
+                            <i class="fa-solid fa-star"></i>
+                            <p>8.6</p>
+                        </div>
+                    </div>
+                    <div class="ranking__card__middle">
+                        <h3 class="ranking__card__title">
+                            Arcane
+                        </h3>
+                        <p class="ranking__card__text text">
+                            Set in utopian Piltover and the oppressed underground of Zaun, 
+                            the story follows the origins of two iconic League champions-and 
+                            the power that will tear them apart.
+                        </p>
+                    </div>
+                    <div class="ranking__card__right">
+                        <p class="ranking__card__year">
+                            2021-...
+                        </p>
+                        <a href="series/netflix-arcane.html">
+                            <button class="ranking__card__btn btn__secondary">
+                                <p>read more</p>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="main__ranking__card ranking__card">
+                    <div class="ranking__card__place">
+                        3
+                    </div>
+                    <img src="../../img/netflix/series/black-mirror-main.jpg" alt="black mirror serie poster" class="ranking__card__img">
+                    <div class="ranking__card__left">
+                        <div class="ranking__card__rating">
+                            <i class="fa-solid fa-star"></i>
+                            <p>8.3</p>
+                        </div>
+                    </div>
+                    <div class="ranking__card__middle">
+                        <h3 class="ranking__card__title">
+                            Black Mirror
+                        </h3>
+                        <p class="ranking__card__text text">
+                            An anthology series exploring a twisted, high-tech multiverse 
+                            where humanity's greatest innovations and darkest instincts collide.
+                        </p>
+                    </div>
+                    <div class="ranking__card__right">
+                        <p class="ranking__card__year">
+                            2011-19
+                        </p>
+                        <a href="series/netflix-mirror.html">
+                            <button class="ranking__card__btn btn__secondary">
+                                <p>read more</p>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="main__ranking__card ranking__card">
+                    <div class="ranking__card__place">
+                        4
+                    </div>
+                    <img src="../../img/netflix/series/better-call-main.jpg" alt="better call saul serie poster" class="ranking__card__img">
+                    <div class="ranking__card__left">
+                        <div class="ranking__card__rating">
+                            <i class="fa-solid fa-star"></i>
+                            <p>8.3</p>
+                        </div>
+                    </div>
+                    <div class="ranking__card__middle">
+                        <h3 class="ranking__card__title">
+                            Better Call Saul
+                        </h3>
+                        <p class="ranking__card__text text">
+                            The trials and tribulations of criminal lawyer Jimmy McGill 
+                            in the years leading up to his fateful run-in with Walter White and Jesse Pinkman. 
+                        </p>
+                    </div>
+                    <div class="ranking__card__right">
+                        <p class="ranking__card__year">
+                            20015-22
+                        </p>
+                        <a href="series/netflix-better.html">
+                            <button class="ranking__card__btn btn__secondary">
+                                <p>read more</p>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="main__ranking__card ranking__card">
+                    <div class="ranking__card__place">
+                        5
+                    </div>
+                    <img src="../../img/netflix/series/bojack-horseman-main.jpg" alt="BoJack Horseman series poster" class="ranking__card__img">
+                    <div class="ranking__card__left">
+                        <div class="ranking__card__rating">
+                            <i class="fa-solid fa-star"></i>
+                            <p>8.3</p>
+                        </div>
+                    </div>
+                    <div class="ranking__card__middle">
+                        <h3 class="ranking__card__title">
+                            BoJack Horseman
+                        </h3>
+                        <p class="ranking__card__text text">
+                            BoJack Horseman was the star of the hit television show "Horsin' 
+                            Around" in the '80s and '90s, but now he's washed up, living in Hollywood, 
+                            complaining about everything, and wearing colorful sweaters.
+                        </p>
+                    </div>
+                    <div class="ranking__card__right">
+                        <p class="ranking__card__year">
+                            2014-20
+                        </p>
+                        <a href="series/netflix-bojack.html">
+                            <button class="ranking__card__btn btn__secondary">
+                                <p>read more</p>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="main__ranking__card ranking__card">
+                    <div class="ranking__card__place">
+                        6
+                    </div>
+                    <img src="../../img/netflix/series/crown-main.jpg" alt="the crown serie poster" class="ranking__card__img">
+                    <div class="ranking__card__left">
+                        <div class="ranking__card__rating">
+                            <i class="fa-solid fa-star"></i>
+                            <p>8.2</p>
+                        </div>
+                    </div>
+                    <div class="ranking__card__middle">
+                        <h3 class="ranking__card__title">
+                            The Crown
+                        </h3>
+                        <p class="ranking__card__text text">
+                            Follows the political rivalries and romance of 
+                            Queen Elizabeth II's reign and the events that 
+                            shaped the second half of the twentieth century. 
+                        </p>
+                    </div>
+                    <div class="ranking__card__right">
+                        <p class="ranking__card__year">
+                            2016-...
+                        </p>
+                        <a href="series/netflix-crown.html">
+                            <button class="ranking__card__btn btn__secondary">
+                                <p>read more</p>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="main__ranking__card ranking__card">
+                    <div class="ranking__card__place">
+                        7
+                    </div>
+                    <img src="../../img/netflix/series/dark-main.jpg" alt="dark serie poster" class="ranking__card__img">
+                    <div class="ranking__card__left">
+                        <div class="ranking__card__rating">
+                            <i class="fa-solid fa-star"></i>
+                            <p>8.2</p>
+                        </div>
+                    </div>
+                    <div class="ranking__card__middle">
+                        <h3 class="ranking__card__title">
+                            Dark
+                        </h3>
+                        <p class="ranking__card__text text">
+                            A family saga with a supernatural twist, set in a 
+                            German town where the disappearance of two young 
+                            children exposes the relationships among four families. 
+                        </p>
+                    </div>
+                    <div class="ranking__card__right">
+                        <p class="ranking__card__year">
+                            2017-20
+                        </p>
+                        <a href="series/netflix-dark.html">
+                            <button class="ranking__card__btn btn__secondary">
+                                <p>read more</p>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="main__ranking__card ranking__card">
+                    <div class="ranking__card__place">
+                        8
+                    </div>
+                    <img src="../../img/netflix/series/stranger-things-main.jpg" alt="stranger thiings serie poster" class="ranking__card__img">
+                    <div class="ranking__card__left">
+                        <div class="ranking__card__rating">
+                            <i class="fa-solid fa-star"></i>
+                            <p>8.2</p>
+                        </div>
+                    </div>
+                    <div class="ranking__card__middle">
+                        <h3 class="ranking__card__title">
+                            Stranger Things
+                        </h3>
+                        <p class="ranking__card__text text">
+                            When a young boy disappears, his mother, a police chief and 
+                            his friends must confront terrifying supernatural 
+                            forces in order to get him back.
+                        </p>
+                    </div>
+                    <div class="ranking__card__right">
+                        <p class="ranking__card__year">
+                            2016-...
+                        </p>
+                        <a href="series/netflix-stranger.html">
+                            <button class="ranking__card__btn btn__secondary">
+                                <p>read more</p>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="main__ranking__card ranking__card">
+                    <div class="ranking__card__place">
+                        9
+                    </div>
+                    <img src="../../img/netflix/series/peaky-blinders-main.jpg" alt="peaky blinders serie poster" class="ranking__card__img">
+                    <div class="ranking__card__left">
+                        <div class="ranking__card__rating">
+                            <i class="fa-solid fa-star"></i>
+                            <p>8.1</p>
+                        </div>
+                    </div>
+                    <div class="ranking__card__middle">
+                        <h3 class="ranking__card__title">
+                            Peaky Blinders 
+                        </h3>
+                        <p class="ranking__card__text text">
+                            A gangster family epic set in 1900s England, centering on a gang 
+                            who sew razor blades in the peaks of their caps, and their 
+                            fierce boss Tommy Shelby.
+                        </p>
+                    </div>
+                    <div class="ranking__card__right">
+                        <p class="ranking__card__year">
+                            2013-22
+                        </p>
+                        <a href="series/netflix-peaky.html">
+                            <button class="ranking__card__btn btn__secondary">
+                                <p>read more</p>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="main__ranking__card ranking__card">
+                    <div class="ranking__card__place">
+                        10
+                    </div>
+                    <img src="../../img/netflix/series/witcher-main.jpg" alt="the witcher serie poster" class="ranking__card__img">
+                    <div class="ranking__card__left">
+                        <div class="ranking__card__rating">
+                            <i class="fa-solid fa-star"></i>
+                            <p>7.8</p>
+                        </div>
+                    </div>
+                    <div class="ranking__card__middle">
+                        <h3 class="ranking__card__title">
+                            The Witcher
+                        </h3>
+                        <p class="ranking__card__text text">
+                            Geralt of Rivia, a solitary monster hunter, struggles 
+                            to find his place in a world where people often prove more wicked than beasts.
+                        </p>
+                    </div>
+                    <div class="ranking__card__right">
+                        <p class="ranking__card__year">
+                            2019-...
+                        </p>
+                        <a href="movies/netflix-taxi.html">
+                            <button class="ranking__card__btn btn__secondary">
+                                <p>read more</p>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__user">
+                <a href="#">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+            </div>
+            <div class="footer__services">
+                <div class="footer__icon netflix">
+                    <a href="../netflix/netflix-index.html">
+                        <img src="../../img/navs/netflix-icon-round.svg" alt="netflix logo">
+                    </a>
+                </div>
+                <div class="footer__icon">
+                    <a href="#">
+                        <img src="../../img/navs/hbo-icon-round.svg" alt="hbo logo">
+                    </a>
+                </div>
+                <div class="footer__icon">
+                    <a href="#">
+                        <img src="../../img/navs/apple-tv-icon-round.png" alt="apple tv logo">
+                    </a>
+                </div>
+                <div class="footer__icon">
+                    <a href="#">
+                        <img src="../../img/navs/hulu-logo-icon.png" alt="hulu logo">
+                    </a>
+                </div>
+                <div class="footer__icon">
+                    <a href="../amazon/amazon-index.html">
+                        <img src="../../img/navs/prime-icon-round.png" alt="prime logo">
+                    </a>
+                </div>
+                <div class="footer__icon">
+                    <a href="#">
+                        <img src="../../img/navs/disney-plus-logo-round.png" alt="disney logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
