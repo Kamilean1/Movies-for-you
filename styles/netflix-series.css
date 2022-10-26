@@ -321,13 +321,15 @@
 .database__container {
   padding-top: 4vh;
   display: flex;
-  gap: 2vw;
+  gap: 1vw;
 }
 .database__container__left {
   border: 1px solid #F2F2F2;
   border-radius: 1vw;
   padding: 2vw;
   opacity: 0.4;
+  width: 9vw;
+  text-align: center;
 }
 .database__container__right {
   width: 100%;
@@ -401,6 +403,96 @@
 }
 .upcoming__card__title {
   width: 20vw;
+}
+
+.item {
+  padding: 0 8vw 4vh 8vw;
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+.item__top {
+  position: relative;
+}
+.item__top__img {
+  width: 100%;
+  height: 40vh;
+  border-radius: 1vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+}
+.item__top__container {
+  width: 100%;
+  height: 40vh;
+  border-radius: 1vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  z-index: 3;
+  padding: 1vw;
+}
+.item__top__title, .item__top__rate {
+  font-size: 20px;
+  background-color: #080808;
+  z-index: 3;
+  padding: 1vw;
+  border-radius: 2vw;
+}
+.item__middle {
+  display: flex;
+  gap: 2vw;
+}
+.item__middle__left, .item__middle__right {
+  background: linear-gradient(rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.08) 100%);
+  border-radius: 1vw;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+.item__middle__left {
+  justify-content: center;
+}
+.item__middle__left__title {
+  font-size: 16px;
+}
+.item__middle__left__text {
+  line-height: 16px;
+}
+.item__middle__left__subtitle {
+  align-self: flex-end;
+}
+.item__middle__right__container {
+  width: 100%;
+  display: flex;
+  gap: 2vw;
+}
+.item__middle__right__title, .item__middle__right__text {
+  width: 4vw;
+}
+.item__bottom {
+  display: flex;
+  gap: 2vw;
+}
+.item__bottom__left {
+  background: linear-gradient(rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.08) 100%);
+  border-radius: 1vw;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+.item__bottom__left__title {
+  font-size: 16px;
+}
+.item__bottom__left a {
+  align-self: flex-end;
+}
+.item__bottom__right__video {
+  width: 24vw;
+  border-radius: 1vw;
+  height: 100%;
 }
 
 body {
@@ -627,14 +719,6 @@ body {
   opacity: 1;
 }
 
-.active {
-  opacity: 1;
-}
-
-.hide {
-  display: none;
-}
-
 .main {
   width: 100%;
   max-width: 1900px;
@@ -647,6 +731,66 @@ body {
   display: flex;
   justify-content: flex-end;
 }
+.main__news__left {
+  background-image: url(../img/netflix/netflix-img-index-4.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main__news__left__btn {
+  margin-top: 30vh;
+  align-self: flex-start;
+  justify-self: flex-end;
+  color: #F2F2F2;
+}
+.main__news__right__card:first-child {
+  background-image: url(../img/netflix/netflix-img-index-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main__news__right__card:nth-child(2) {
+  background-image: url(../img/netflix/netflix-img-index-5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main__news__right__card:nth-child(3) {
+  background-image: url(../img/netflix/netflix-img-index-6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main__news__right__title {
+  width: 100%;
+  height: 100%;
+  padding: 7vw 0 1vw 1vw;
+  align-self: flex-end;
+  border-radius: 1vw 0 0 1vw;
+  background-color: rgba(8, 8, 8, 0.5);
+  text-justify: bottom;
+}
 .main__genres {
-  margin-bottom: 4vh;
-}/*# sourceMappingURL=netflix-genres.css.map */
+  margin-top: 8vh;
+}
+.main__top-series {
+  margin: 8vh 0;
+}
+.main__top-series__card:first-child {
+  background-image: url(../img/netflix/series/breaking-bad-main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main__top-series__card:nth-child(2) {
+  background-image: url(../img/netflix/series/arcane-main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main__top-series__card:nth-child(3) {
+  background-image: url(../img/netflix/series/black-mirror-main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main__top-series__btn {
+  width: 15vw;
+}
+.main__top-series__btn__load {
+  width: 100%;
+  justify-content: center !important;
+}/*# sourceMappingURL=netflix-series.css.map */
