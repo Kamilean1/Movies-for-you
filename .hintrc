@@ -17,6 +17,7 @@
           "text-justify"
         ]
       }
-    ]
+    ],
+    "compat-api/html": "off"
   }
 }
