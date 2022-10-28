@@ -313,6 +313,73 @@ main {
   height: 100%;
 }
 
+.container-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 20%;
+}
+
+.text-block {
+  width: 70%;
+  background-color: rgba(255, 95, 31, 0.6352941176);
+  border-radius: 8px;
+  color: white;
+  font-family: "Merriweather Sans", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+  padding: 8px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.span-disney-plus {
+  font-size: 36px;
+}
+
+.dinsey-image-about {
+  width: 70%;
+  border-radius: 8px;
+}
+
+.text-block-two {
+  width: 70%;
+  background-color: rgba(255, 95, 31, 0.6352941176);
+  border-radius: 8px;
+  color: white;
+  font-family: "Merriweather Sans", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  padding: 8px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.text-left {
+  font-size: 24px;
+}
+
+.span-prices {
+  font-size: 16px;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
