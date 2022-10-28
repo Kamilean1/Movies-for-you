@@ -301,6 +301,19 @@ main {
   }
 }
 * {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  max-width: 1900px;
+  height: 100%;
+}
+
+* {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0;
