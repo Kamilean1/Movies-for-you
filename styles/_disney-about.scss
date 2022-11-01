@@ -6,16 +6,22 @@ main {
     padding: 0 8vw 0 18vw;
 }
 
-.container-about {
+.dinsey-image-about {
+    width: 90%;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.container-disney-about {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
-    margin: 50px;
 }
 
 .text-block {
-    width: 70%;
+    width: 90%;
+    margin-left: 20px;
     background-color: #ff5f1fa2;
     border-radius: 8px;
     color: white;
@@ -32,14 +38,9 @@ main {
     font-size: 36px;
 }
 
-
-.dinsey-image-about {
-    width: 70%;
-    border-radius: 8px;
-}
-
 .text-block-two {
-    width: 70%;
+    width: 90%;
+    margin-left: 20px;
     background-color: #ff5f1fa2;
     border-radius: 8px;
     color: white;
