@@ -6,22 +6,29 @@ main {
     padding: 0 8vw 0 18vw;
 }
 
+.disney-about-row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .dinsey-image-about {
     width: 90%;
     border-radius: 8px;
-    margin: 20px;
 }
 
 .container-disney-about {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 1rem;
 }
 
 .text-block {
     width: 90%;
-    margin-left: 20px;
     background-color: #ff5f1fa2;
     border-radius: 8px;
     color: white;
@@ -40,7 +47,6 @@ main {
 
 .text-block-two {
     width: 90%;
-    margin-left: 20px;
     background-color: #ff5f1fa2;
     border-radius: 8px;
     color: white;

@@ -314,10 +314,23 @@ main {
   padding: 0 8vw 0 18vw;
 }
 
+.disney-about-row {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .dinsey-image-about {
   width: 90%;
   border-radius: 8px;
-  margin: 20px;
 }
 
 .container-disney-about {
@@ -329,12 +342,14 @@ main {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 1rem;
 }
 
 .text-block {
   width: 90%;
-  margin-left: 20px;
   background-color: rgba(255, 95, 31, 0.6352941176);
   border-radius: 8px;
   color: white;
@@ -358,7 +373,6 @@ main {
 
 .text-block-two {
   width: 90%;
-  margin-left: 20px;
   background-color: rgba(255, 95, 31, 0.6352941176);
   border-radius: 8px;
   color: white;
