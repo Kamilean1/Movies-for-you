@@ -1,21 +1,25 @@
 @use 'var';
 
 main {
-    width: 64vw;
-    margin-left: 20%;
-    display: flex;
-    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 8vw 0 18vw;
 }
+
+.row {
+    width: 75vw;
+    min-height: 100vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .main-title{
     color: #2d2d2d;
     text-align: center;
     padding: 0.7em 0;
-}
-  
-.container{
-    padding: 1em 0;
-    width: 50%;
 }
   
 .container .title{
@@ -36,10 +40,9 @@ main {
 
 .content {
     position: relative;
-    width: 90%;
-    max-width: 400px;
-    margin: auto;
     overflow: hidden;
+    width: 90%;
+    margin: 25px;
 }
 
 .content .image-overlay {

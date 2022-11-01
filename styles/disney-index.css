@@ -202,24 +202,32 @@ main {
 }
 
 main {
-  width: 64vw;
-  margin-left: 20%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  width: 100vw;
+  height: 100vh;
+  padding: 0 8vw 0 18vw;
+}
+
+.row {
+  width: 75vw;
+  min-height: 100vh;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .main-title {
   color: #2d2d2d;
   text-align: center;
   padding: 0.7em 0;
-}
-
-.container {
-  padding: 1em 0;
-  width: 50%;
 }
 
 .container .title {
@@ -240,10 +248,9 @@ main {
 
 .content {
   position: relative;
-  width: 90%;
-  max-width: 400px;
-  margin: auto;
   overflow: hidden;
+  width: 90%;
+  margin: 25px;
 }
 
 .content .image-overlay {
