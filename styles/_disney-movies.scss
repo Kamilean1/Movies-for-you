@@ -6,9 +6,10 @@ main {
     padding: 0 8vw 0 18vw;
 }
 
-.row {
+.row-disney-movies {
     width: 75vw;
     min-height: 100vh;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;

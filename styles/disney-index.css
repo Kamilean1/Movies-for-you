@@ -168,20 +168,13 @@ body {
   opacity: 1;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 main {
-  width: 100%;
-  max-width: 1900px;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
+  padding: 0 8vw 0 18vw;
 }
 
-.row {
+.row-disney-index {
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -191,14 +184,19 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 50px;
+  gap: 1rem;
 }
 
 .disney-index-image {
-  width: 25%;
+  width: 30%;
 }
 
 .disney-index-image-top {
-  width: 76%;
+  width: 91%;
 }
 
 main {
@@ -207,9 +205,12 @@ main {
   padding: 0 8vw 0 18vw;
 }
 
-.row {
+.row-disney-movies {
   width: 75vw;
   min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -307,17 +308,10 @@ main {
     width: 33.33333%;
   }
 }
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 main {
-  width: 100%;
-  max-width: 1900px;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
+  padding: 0 8vw 0 18vw;
 }
 
 .container-about {
@@ -330,7 +324,7 @@ main {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 1rem;
-  margin-top: 20%;
+  margin: 50px;
 }
 
 .text-block {

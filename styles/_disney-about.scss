@@ -1,15 +1,9 @@
 @use 'var';
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 main {
-    width: 100%;
-    max-width: 1900px;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 8vw 0 18vw;
 }
 
 .container-about {
@@ -17,7 +11,7 @@ main {
     align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
-    margin-top: 20%;
+    margin: 50px;
 }
 
 .text-block {
