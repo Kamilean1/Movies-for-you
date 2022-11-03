@@ -13,13 +13,13 @@
 }
 
 .title {
-    font-family: 'Oswald';
+    font-family: var.$logo-font;
     font-style: normal;
-    font-weight: 400;
+    font-weight: var.$weight-regular;
     font-size: 128px;
     line-height: 190px;
     text-align: center;
-    color: #F2F2F2;
+    color: var.$pure-white-color;
     align-self:center;
     height: 168px;
     max-width: 920px;
@@ -41,12 +41,12 @@ section {
 }
 
 .info {
-    font-family: 'Merriweather Sans';
+    font-family: var.$text-font;
     font-style: normal;
-    font-weight: 300;
-    font-size: 36px;
+    font-weight: var.$weight-light;
+    font-size: var.$size-large;
     line-height: 60px;
-    color: #F2F2F2;
+    color: var.$pure-white-color;
     height: 30vh;
     width: 30vw;
     
@@ -60,12 +60,12 @@ section {
 .btn-one {
     width: 193px;
     height: 48px;
-    font-family: 'Merriweather Sans';
+    font-family: var.$text-font;
     font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
+    font-weight: var.$weight-light;
+    font-size: var.$size-small;
     line-height: 20px;
-    color: #FF5F1F;
+    color: var.$accent-color;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.08) 100%);
     opacity: 0.5;
     border: 1px solid #FF5F1F;
@@ -77,13 +77,13 @@ section {
     justify-content: space-evenly;
 }
 
-a:link {
+.link>a {
     text-decoration: none;
 }
 
 .btn-one:hover {
-    background: #FF5F1F;
-    color: #1E1E1E;
+    background: var.$accent-color;
+    color: var.$black-color;
 }
 
 .span-img {
@@ -99,12 +99,12 @@ a:link {
     opacity: 0.5;
     backdrop-filter: blur(2px);
     border-radius: 24px;
-    font-family: 'Merriweather Sans';
+    font-family: var.$text-font;
     font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
+    font-weight: var.$weight-light;
+    font-size: var.$size-small;
     line-height: 20px;
-    color: #F2F2F2;
+    color: var.$white-color;
     opacity: 0.6;
     width: 134px;
     height: 48px;

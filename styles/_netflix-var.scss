@@ -336,12 +336,14 @@
     &__container {
         padding-top: 4vh;
         display: flex;
-        gap: 2vw;
+        gap: 1vw;
         &__left {
             border: 1px solid var.$white-color;
             border-radius: 1vw;
             padding: 2vw;
             opacity: .4;
+            width: 9vw;
+            text-align: center;
         }
         &__right {
             width: 100%;
@@ -415,6 +417,100 @@
         }
         &__title {
             width: 20vw;
+        }
+    }
+}
+
+//ACTORS, SERIES, MOVIES section// 
+.item {
+    padding: 0 8vw 4vh 8vw;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    &__top {
+        position: relative;
+        &__img {
+            width: 100%;
+            height: 40vh;
+            border-radius: 1vw;
+            object-fit: cover;
+            position: absolute;
+        }
+        &__container {
+            width: 100%;
+            height: 40vh;
+            border-radius: 1vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            z-index: 3;
+            padding: 1vw;
+        }
+        &__title, &__rate {
+            font-size: var.$size-regular;
+            background-color: var.$black-color;
+            z-index: 3;
+            padding: 1vw;
+            border-radius: 2vw;
+        }
+    }
+    &__middle {
+        display: flex;
+        gap: 2vw;
+        &__left, &__right {
+            background: var.$linear-bg-cards;
+            border-radius: 1vw;
+            padding: 2vw;
+            display: flex;
+            flex-direction: column;
+            gap: 2vh;
+        }
+        &__left {
+            justify-content: center;
+            &__title {
+                font-size: var.$size-small;
+            }
+            &__text {
+                line-height: 16px;
+            }
+            &__subtitle {
+                align-self: flex-end;
+            }
+        }
+        &__right {
+            &__container {
+                width: 100%;
+                display: flex;
+                gap: 2vw;
+            }
+            &__title, &__text {
+                width: 4vw;
+            }
+        }
+    }
+    &__bottom {
+        display: flex;
+        gap: 2vw;
+        &__left {
+            background: var.$linear-bg-cards;
+            border-radius: 1vw;
+            padding: 2vw;
+            display: flex;
+            flex-direction: column;
+            gap: 2vh;
+            &__title {
+                font-size: var.$size-small;
+            }
+            a {
+                align-self: flex-end;
+            }
+        }
+        &__right {
+            &__video {
+                width: 24vw;
+                border-radius: 1vw;
+                height: 100%;
+            }
         }
     }
 }

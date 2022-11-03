@@ -5,6 +5,10 @@ body {
 .header {
   width: 18vw;
   height: 100vh;
+<<<<<<< HEAD
+=======
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.32)), to(rgba(255, 255, 255, 0.08)));
+>>>>>>> master
   background: linear-gradient(rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.08) 100%);
   position: fixed;
   top: 0;
@@ -87,7 +91,14 @@ body {
   width: 4vw;
   height: 4vw;
   border-radius: 50%;
+<<<<<<< HEAD
   background: linear-gradient(rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.08) 100%);
+=======
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.32)), to(rgba(255, 255, 255, 0.08)));
+  background: linear-gradient(rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.08) 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+>>>>>>> master
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,11 +142,20 @@ body {
   padding: 1vw 2vw;
   border: 1px solid #FF5F1F;
   border-radius: 2vw;
+<<<<<<< HEAD
+=======
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.32)), to(rgba(255, 255, 255, 0.08)));
+>>>>>>> master
   background: linear-gradient(rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.08) 100%);
   color: #FF5F1F;
   font-family: "Merriweather Sans", sans-serif;
   font-size: 16px;
   font-weight: 300;
+<<<<<<< HEAD
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+>>>>>>> master
   display: flex;
   gap: 4vw;
   opacity: 0.7;
@@ -148,6 +168,10 @@ body {
 .search {
   height: 3vw;
   width: 14vw;
+<<<<<<< HEAD
+=======
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.32)), to(rgba(255, 255, 255, 0.08)));
+>>>>>>> master
   background: linear-gradient(rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.08) 100%);
   border-radius: 2vw;
   position: relative;
@@ -158,6 +182,14 @@ body {
   height: 3vw;
   width: 10vw;
 }
+<<<<<<< HEAD
+=======
+.search__input::-webkit-input-placeholder {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 16px;
+  color: #F2F2F2;
+}
+>>>>>>> master
 .search__input::-moz-placeholder {
   font-family: "Merriweather Sans", sans-serif;
   font-size: 16px;
@@ -168,6 +200,14 @@ body {
   font-size: 16px;
   color: #F2F2F2;
 }
+<<<<<<< HEAD
+=======
+.search__input::-ms-input-placeholder {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 16px;
+  color: #F2F2F2;
+}
+>>>>>>> master
 .search__input::placeholder {
   font-family: "Merriweather Sans", sans-serif;
   font-size: 16px;
