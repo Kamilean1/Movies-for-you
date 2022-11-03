@@ -5,10 +5,6 @@ body {
 .header {
   width: 18vw;
   height: 100vh;
-<<<<<<< HEAD
-=======
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.32)), to(rgba(255, 255, 255, 0.08)));
->>>>>>> master
   background: linear-gradient(rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.08) 100%);
   position: fixed;
   top: 0;
@@ -91,14 +87,7 @@ body {
   width: 4vw;
   height: 4vw;
   border-radius: 50%;
-<<<<<<< HEAD
   background: linear-gradient(rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.08) 100%);
-=======
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.32)), to(rgba(255, 255, 255, 0.08)));
-  background: linear-gradient(rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.08) 100%);
-  display: -webkit-box;
-  display: -ms-flexbox;
->>>>>>> master
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,20 +131,11 @@ body {
   padding: 1vw 2vw;
   border: 1px solid #FF5F1F;
   border-radius: 2vw;
-<<<<<<< HEAD
-=======
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.32)), to(rgba(255, 255, 255, 0.08)));
->>>>>>> master
   background: linear-gradient(rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.08) 100%);
   color: #FF5F1F;
   font-family: "Merriweather Sans", sans-serif;
   font-size: 16px;
   font-weight: 300;
-<<<<<<< HEAD
-=======
-  display: -webkit-box;
-  display: -ms-flexbox;
->>>>>>> master
   display: flex;
   gap: 4vw;
   opacity: 0.7;
@@ -168,10 +148,6 @@ body {
 .search {
   height: 3vw;
   width: 14vw;
-<<<<<<< HEAD
-=======
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.32)), to(rgba(255, 255, 255, 0.08)));
->>>>>>> master
   background: linear-gradient(rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.08) 100%);
   border-radius: 2vw;
   position: relative;
@@ -182,14 +158,6 @@ body {
   height: 3vw;
   width: 10vw;
 }
-<<<<<<< HEAD
-=======
-.search__input::-webkit-input-placeholder {
-  font-family: "Merriweather Sans", sans-serif;
-  font-size: 16px;
-  color: #F2F2F2;
-}
->>>>>>> master
 .search__input::-moz-placeholder {
   font-family: "Merriweather Sans", sans-serif;
   font-size: 16px;
@@ -200,14 +168,6 @@ body {
   font-size: 16px;
   color: #F2F2F2;
 }
-<<<<<<< HEAD
-=======
-.search__input::-ms-input-placeholder {
-  font-family: "Merriweather Sans", sans-serif;
-  font-size: 16px;
-  color: #F2F2F2;
-}
->>>>>>> master
 .search__input::placeholder {
   font-family: "Merriweather Sans", sans-serif;
   font-size: 16px;
@@ -239,91 +199,5 @@ ul, li {
 }
 
 body {
-  /*background-color: var.$black-color;*/
-  background: rgb(88, 72, 223);
-  background: linear-gradient(90deg, rgb(88, 72, 223) 15%, rgb(6, 24, 106) 44%, rgb(0, 0, 0) 100%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-main {
-  width: 80vw;
-  margin: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.heading-group {
-  position: relative;
-  text-align: center;
-}
-
-.pizza {
-  width: 60vw;
-  height: 50vh;
-  border-radius: 20px;
-}
-
-.logo {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-  width: 10vw;
-  height: 15vh;
-}
-
-container.info-box {
-  width: 60vw;
-  height: 30vh;
-  background-color: #867ae7;
-  border-radius: 20px;
-  margin: 20px;
-}
-
-.info {
-  font-family: "Oswald";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 35px;
-  line-height: 50px;
-  text-align: center;
-  color: white;
-  padding: 0.5em;
-}
-
-.movie-group {
-  width: 62vw;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-self: center;
-}
-
-.posters {
-  width: 201px;
-  height: 125px;
-  margin: 10px;
-  border-radius: 20px;
-}
-
-@media screen and (max-width: 1100px) {
-  .info {
-    font-size: 35px;
-    line-height: 45px;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .info {
-    font-size: 30px;
-    line-height: 40px;
-  }
-}
-@media screen and (max-width: 700px) {
-  .info {
-    font-size: 25px;
-    line-height: 40px;
-  }
-}/*# sourceMappingURL=amazon-movies.css.map */
+  background-color: black;
+}/*# sourceMappingURL=hbo-index.css.map */

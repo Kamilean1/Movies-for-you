@@ -1,0 +1,20 @@
+@use 'var';
+
+@import 'navs';
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a, button, input, textarea, select {
+    all: unset;
+}
+ul, li {
+    list-style-type: none;
+}
+
+body {
+    background-color: black;
+}
