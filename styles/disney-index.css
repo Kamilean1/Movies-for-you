@@ -199,7 +199,7 @@ main {
   width: 91%;
 }
 
-main {
+.main-disney {
   width: 100vw;
   height: 100vh;
   padding: 0 8vw 0 18vw;
@@ -308,7 +308,7 @@ main {
     width: 33.33333%;
   }
 }
-main {
+.main-disney {
   width: 100vw;
   height: 100vh;
   padding: 0 8vw 0 18vw;
@@ -397,7 +397,7 @@ main {
   font-size: 16px;
 }
 
-main {
+.main-disney {
   width: 100vw;
   height: 100vh;
   padding: 0 8vw 0 18vw;
