@@ -1,0 +1,13 @@
+@use 'var';
+
+$hbo-main-color: #341454;
+$hbo-main-color-2: #030528;
+$hbo-main-color-3: #9c4cec;
+
+body {
+    background-color: $hbo-main-color-2;
+}
+
+.nav {
+    background-color: $hbo-main-color;
+}

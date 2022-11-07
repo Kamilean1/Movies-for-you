@@ -1,4 +1,12 @@
 body {
+  background-color: #030528;
+}
+
+.nav {
+  background-color: #341454;
+}
+
+body {
   background-color: #080808;
 }
 
@@ -190,10 +198,45 @@ body {
   margin: 0;
 }
 
-a, button, input, textarea, select {
+a,
+button,
+input,
+textarea,
+select {
   all: unset;
 }
 
-ul, li {
+ul,
+li {
   list-style-type: none;
+}
+
+.index-title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  color: #9c4cec;
+  margin-top: 6vw;
+}
+.index-title .text {
+  font-family: "Merriweather Sans", sans-serif;
+  text-shadow: 0 0 20px rgb(183, 52, 197);
+  font-size: 30px;
+}
+
+.index-image {
+  width: 800px;
+  height: auto;
+  display: block;
+  margin-left: 36vw;
+  margin-right: auto;
+  width: 45%;
+  margin-bottom: 10px;
+  box-shadow: 0 2.8px 2.2px #341454, 0 6.7px 5.3px #341454, 0 12.5px 10px #341454, 0 22.3px 17.9px #341454, 0 41.8px 33.4px #341454, 0 100px 80px #341454;
+}
+.index-image:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 0.4s;
 }/*# sourceMappingURL=hbo-index.css.map */
