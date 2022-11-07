@@ -1,0 +1,27 @@
+@use 'var';
+
+main {
+    width: 100vw;
+    height: 100vh;
+    padding: 0 8vw 0 18vw;
+}
+
+.row-disney-producers {
+    width: 75vw;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 25px;
+}
+
+.container-disney-producers {
+    width: 25%;
+}
+
+.content-disney-producers {
+    background-color: #FF5F1F;
+    padding: 5px;
+    border-radius: 8px;
+}

@@ -195,6 +195,10 @@ main {
   width: 30%;
 }
 
+.disney-index-image:hover, .disney-index-image-top:hover {
+  cursor: pointer;
+}
+
 .disney-index-image-top {
   width: 91%;
 }
@@ -500,6 +504,37 @@ main {
     width: 33.33333%;
   }
 }
+main {
+  width: 100vw;
+  height: 100vh;
+  padding: 0 8vw 0 18vw;
+}
+
+.row-disney-producers {
+  width: 75vw;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+  margin-top: 25px;
+}
+
+.container-disney-producers {
+  width: 25%;
+}
+
+.content-disney-producers {
+  background-color: #FF5F1F;
+  padding: 5px;
+  border-radius: 8px;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
