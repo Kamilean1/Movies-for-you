@@ -101,15 +101,15 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 900px){
+    .container-disney-movies{
+      width: 75%;
+    }
+}
+
 @media screen and (max-width: 640px){
     .container-disney-movies{
       display: block;
-      width: 100%;
-    }
-}
-  
-@media screen and (min-width: 900px){
-    .container-disney-movies{
-      width: 33.33333%;
+      width: 65%;
     }
 }

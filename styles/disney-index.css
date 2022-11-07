@@ -191,6 +191,22 @@ main {
   gap: 1rem;
 }
 
+.title-disney-index {
+  padding: 8px;
+  margin: 0px 0px 25px 15px;
+}
+
+.content-title-disney-index {
+  font-family: "Oswald", sans-serif;
+  font-size: 48px;
+  width: 90%;
+  background-color: #447AB1;
+  padding: 15px;
+  border-radius: 50px;
+  color: #F2F2F2;
+  text-align: center;
+}
+
 .disney-index-image {
   width: 30%;
 }
@@ -203,6 +219,16 @@ main {
   width: 91%;
 }
 
+@media screen and (max-width: 900px) {
+  .disney-index-image, .disney-index-image-top {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .disney-index-image, .disney-index-image-top {
+    width: 75%;
+  }
+}
 .main-disney {
   width: 100vw;
   height: 100vh;
@@ -313,15 +339,15 @@ main {
   cursor: pointer;
 }
 
+@media screen and (max-width: 900px) {
+  .container-disney-movies {
+    width: 75%;
+  }
+}
 @media screen and (max-width: 640px) {
   .container-disney-movies {
     display: block;
-    width: 100%;
-  }
-}
-@media screen and (min-width: 900px) {
-  .container-disney-movies {
-    width: 33.33333%;
+    width: 65%;
   }
 }
 .main-disney {
@@ -453,6 +479,7 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 40%;
 }
 
 .container-disney-series .title {
@@ -520,15 +547,15 @@ main {
   cursor: pointer;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 900px) {
   .container-disney-series {
-    display: block;
     width: 75%;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (max-width: 640px) {
   .container-disney-series {
-    width: 33.33333%;
+    display: block;
+    width: 65%;
   }
 }
 .main-disney {
@@ -578,6 +605,17 @@ main {
   text-align: center;
 }
 
+@media screen and (max-width: 900px) {
+  .container-disney-producers {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .container-disney-producers {
+    display: block;
+    width: 65%;
+  }
+}
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;

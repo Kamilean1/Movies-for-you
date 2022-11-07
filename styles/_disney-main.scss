@@ -16,6 +16,22 @@ main {
     gap: 1rem;
 }
 
+.title-disney-index {
+    padding: 8px;
+    margin: 0px 0px 25px 15px;
+}
+
+.content-title-disney-index {
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    width: 90%;
+    background-color: #447AB1;
+    padding: 15px;
+    border-radius: 50px;
+    color: #F2F2F2;
+    text-align: center;
+}
+
 .disney-index-image {
     width: 30%;
 }
@@ -27,4 +43,17 @@ main {
 
 .disney-index-image-top {
     width: 91%;
+}
+
+
+@media screen and (max-width: 900px){
+    .disney-index-image, .disney-index-image-top{
+      width: 90%;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .disney-index-image, .disney-index-image-top{
+      width: 75%;
+    }
 }

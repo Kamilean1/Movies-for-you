@@ -41,3 +41,16 @@
     color: #F2F2F2;
     text-align: center;
 }
+
+@media screen and (max-width: 900px){
+    .container-disney-producers{
+      width: 75%;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .container-disney-producers{
+      display: block;
+      width: 65%;
+    }
+}

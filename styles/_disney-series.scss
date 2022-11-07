@@ -29,6 +29,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 40%;
 }
   
 .container-disney-series .title{
@@ -99,15 +100,15 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 900px){
     .container-disney-series{
-      display: block;
       width: 75%;
     }
 }
-  
-@media screen and (min-width: 900px){
+
+@media screen and (max-width: 640px){
     .container-disney-series{
-      width: 33.33333%;
+      display: block;
+      width: 65%;
     }
 }
