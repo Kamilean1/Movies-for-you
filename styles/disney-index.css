@@ -504,7 +504,7 @@ main {
     width: 33.33333%;
   }
 }
-main {
+.main-disney {
   width: 100vw;
   height: 100vh;
   padding: 0 8vw 0 18vw;
@@ -530,9 +530,25 @@ main {
 }
 
 .content-disney-producers {
-  background-color: #FF5F1F;
+  background-color: #447AB1;
   padding: 5px;
   border-radius: 8px;
+}
+
+.title-disney-producers {
+  width: 75vw;
+  margin: 25px;
+}
+
+.content-title-disney-producers {
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  width: 100%;
+  background-color: #447AB1;
+  padding: 10px;
+  border-radius: 50px;
+  color: #F2F2F2;
+  text-align: center;
 }
 
 * {
