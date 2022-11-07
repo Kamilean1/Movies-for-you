@@ -212,18 +212,13 @@ main {
 .row-disney-movies {
   width: 75vw;
   min-height: 100vh;
+  gap: 1rem;
+  margin-top: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -235,10 +230,27 @@ main {
   padding: 0.7em 0;
 }
 
-.container .title {
+.container-disney-movies .title {
   color: #1a1a1a;
   text-align: center;
-  margin-bottom: 10px;
+}
+
+.container-disney-movies {
+  background-color: #447AB1;
+  border-radius: 10px;
+  padding: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 35%;
 }
 
 .content-title, .content-text {
@@ -251,14 +263,13 @@ main {
   text-transform: uppercase;
 }
 
-.content {
+.content-disney-movies {
   position: relative;
   overflow: hidden;
-  width: 90%;
-  margin: 25px;
+  width: 100%;
 }
 
-.content .image-overlay {
+.content-disney-movies .image-overlay {
   background: rgba(0, 0, 0, 0.7);
   position: absolute;
   height: 99%;
@@ -272,7 +283,7 @@ main {
   transition: all 0.4s ease-in-out 0s;
 }
 
-.content:hover .image-overlay {
+.content-disney-movies:hover .image-overlay {
   opacity: 1;
 }
 
@@ -295,20 +306,21 @@ main {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.content:hover .content-details {
+.content-disney-movies:hover .content-details {
   top: 50%;
   left: 50%;
   opacity: 1;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 640px) {
-  .container {
+  .container-disney-movies {
     display: block;
     width: 100%;
   }
 }
 @media screen and (min-width: 900px) {
-  .container {
+  .container-disney-movies {
     width: 33.33333%;
   }
 }
@@ -461,7 +473,7 @@ main {
 .content-disney-series {
   position: relative;
   overflow: hidden;
-  width: 100%;
+  width: 75%;
 }
 
 .content-disney-series .image-overlay {
