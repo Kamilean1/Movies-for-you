@@ -6,16 +6,6 @@
     padding: 0 8vw 0 18vw;
 }
 
-.row-disney-index {
-    width: 75vw;
-    min-height: 100vh;
-    margin-top: 25px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
 .title-disney-index {
     width: 70vw;
     margin: 25px 0px 0px 25px;
@@ -31,6 +21,17 @@
     border-radius: 50px;
     color: #F2F2F2;
     text-align: center;
+}
+
+.row-disney-index {
+    width: 75vw;
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .disney-index-image:hover {

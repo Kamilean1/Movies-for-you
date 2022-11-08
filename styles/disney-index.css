@@ -174,23 +174,6 @@ body {
   padding: 0 8vw 0 18vw;
 }
 
-.row-disney-index {
-  width: 75vw;
-  min-height: 100vh;
-  margin-top: 25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .title-disney-index {
   width: 70vw;
   margin: 25px 0px 0px 25px;
@@ -206,6 +189,24 @@ body {
   border-radius: 50px;
   color: #F2F2F2;
   text-align: center;
+}
+
+.row-disney-index {
+  width: 75vw;
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .disney-index-image:hover {
@@ -565,6 +566,22 @@ body {
   padding: 0 8vw 0 18vw;
 }
 
+.title-disney-producers {
+  width: 70vw;
+  margin: 25px 0px 0px 25px;
+}
+
+.content-title-disney-producers {
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  width: 100%;
+  background-color: #172b69;
+  padding: 10px;
+  border-radius: 50px;
+  color: #F2F2F2;
+  text-align: center;
+}
+
 .row-disney-producers {
   width: 75vw;
   min-height: 100vh;
@@ -588,22 +605,6 @@ body {
   background-color: #274693;
   padding: 5px;
   border-radius: 8px;
-}
-
-.title-disney-producers {
-  width: 70vw;
-  margin: 25px 0px 0px 25px;
-}
-
-.content-title-disney-producers {
-  font-family: "Oswald", sans-serif;
-  font-size: 36px;
-  width: 100%;
-  background-color: #172b69;
-  padding: 10px;
-  border-radius: 50px;
-  color: #F2F2F2;
-  text-align: center;
 }
 
 @media screen and (max-width: 900px) {
