@@ -1,16 +1,95 @@
 @use 'var';
-@use 'hbo-var';
+@import 'hbo-var';
 @import 'navs';
 
 
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-a, button, input, textarea, select {
+
+a,
+button,
+input,
+textarea,
+select {
     all: unset;
 }
-ul, li {
+
+ul,
+li {
     list-style-type: none;
+}
+
+.hbo-about-image {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: 19.5vw;
+    width: 30%;
+    margin-top: -2.5vw;
+    -webkit-filter: drop-shadow(10px 10px 35px $hbo-main-color);
+    filter: drop-shadow(10px 3px 25px $hbo-main-color);
+}
+
+.main-info-container {
+    background-color: $hbo-main-color;
+    height: 15.5vw;
+    display: block;
+    margin-left: 23vw;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: -4vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+
+    .text {
+        font-family: $main-font-style;
+        color: white;
+        text-align: center;
+        padding: 16px;
+
+
+    }
+
+    .text2 {
+        font-family: $main-font-style;
+        color: white;
+        display: inline-block;
+        height: auto;
+        text-align: center;
+        margin-top: 4px;
+    }
+}
+
+.offers-info-container {
+    background-color: $hbo-main-color;
+    height: 12.5vw;
+    display: block;
+    margin-left: 23vw;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 3vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+
+    .text {
+        font-family: $main-font-style;
+        color: white;
+        text-align: center;
+        padding: 16px;
+
+
+    }
+
+    .text2 {
+        font-family: $main-font-style;
+        color: white;
+        display: inline-block;
+        height: auto;
+        text-align: center;
+        margin-top: 4px;
+    }
 }
