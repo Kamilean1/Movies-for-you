@@ -200,7 +200,7 @@ main {
   font-family: "Oswald", sans-serif;
   font-size: 48px;
   width: 90%;
-  background-color: #447AB1;
+  background-color: #172b69;
   padding: 15px;
   border-radius: 50px;
   color: #F2F2F2;
@@ -262,7 +262,7 @@ main {
 }
 
 .container-disney-movies {
-  background-color: #447AB1;
+  background-color: #274693;
   border-radius: 10px;
   padding: 8px;
   display: -webkit-box;
@@ -467,7 +467,7 @@ main {
 }
 
 .container-disney-series {
-  background-color: #447AB1;
+  background-color: #274693;
   border-radius: 10px;
   padding: 8px;
   display: -webkit-box;
@@ -584,7 +584,7 @@ main {
 }
 
 .content-disney-producers {
-  background-color: #447AB1;
+  background-color: #274693;
   padding: 5px;
   border-radius: 8px;
 }
@@ -598,7 +598,7 @@ main {
   font-family: "Oswald", sans-serif;
   font-size: 36px;
   width: 100%;
-  background-color: #447AB1;
+  background-color: #172b69;
   padding: 10px;
   border-radius: 50px;
   color: #F2F2F2;
@@ -617,7 +617,7 @@ main {
   }
 }
 div:target {
-  background-color: #FF5F1F;
+  background-color: rgba(255, 95, 31, 0.8078431373);
 }
 
 * {
