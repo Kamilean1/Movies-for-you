@@ -224,7 +224,7 @@ body {
   height: auto;
   display: block;
   margin-right: auto;
-  margin-left: 19.5vw;
+  margin-left: 42vw;
   width: 30%;
   margin-top: -2.5vw;
   filter: drop-shadow(10px 3px 25px #341454);
@@ -234,7 +234,7 @@ body {
   background-color: #341454;
   height: 15.5vw;
   display: block;
-  margin-left: 23vw;
+  margin-left: 31vw;
   margin-right: auto;
   width: 50%;
   border-radius: 10px;
@@ -261,7 +261,7 @@ body {
   background-color: #341454;
   height: 12.5vw;
   display: block;
-  margin-left: 23vw;
+  margin-left: 31vw;
   margin-right: auto;
   width: 50%;
   border-radius: 10px;
@@ -288,7 +288,7 @@ body {
   background-color: #341454;
   height: 19vw;
   display: inline-block;
-  margin-left: 23vw;
+  margin-left: 31vw;
   margin-right: auto;
   width: 50%;
   border-radius: 10px;
