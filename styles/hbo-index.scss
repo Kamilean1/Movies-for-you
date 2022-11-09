@@ -22,6 +22,10 @@ li {
     list-style-type: none;
 }
 
+body {
+    background-color: $hbo-main-color-2;
+}
+
 //*TITLE//
 
 .index-title {
@@ -63,5 +67,3 @@ li {
         transition: transform 0.4s;
     }
 }
-
-.index-image1 {}

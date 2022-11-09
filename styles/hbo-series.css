@@ -1,9 +1,13 @@
-body {
-  background-color: #030528;
-}
-
 .nav {
   background-color: #341454;
+}
+
+.glowing-top-page {
+  width: 100%;
+  height: 4px;
+  background-color: #9c4cec;
+  box-shadow: 0 0 20px #9c4cec;
+  filter: blur(0.5rem);
 }
 
 body {
@@ -198,10 +202,86 @@ body {
   margin: 0;
 }
 
-a, button, input, textarea, select {
+a,
+button,
+input,
+textarea,
+select {
   all: unset;
 }
 
-ul, li {
+ul,
+li {
   list-style-type: none;
+}
+
+body {
+  background-color: #030528;
+}
+
+.hbo {
+  display: block;
+}
+.hbo .hbo-logo {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin-left: 52vw;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.hbo .text {
+  font-family: "Merriweather Sans", sans-serif;
+  color: white;
+  display: block;
+  margin-left: 53.9vw;
+  margin-right: auto;
+}
+
+.series-container {
+  display: inline-block;
+}
+.series-container .text {
+  font-family: "Merriweather Sans", sans-serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.series-container .serie-image {
+  border: 1px solid rgb(65, 152, 227);
+  box-shadow: 0px 0px 20px rgb(65, 152, 227);
+}
+
+.serie-container1 {
+  display: inline-block;
+  margin-left: 22vw;
+  margin-top: 20px;
+}
+.serie-container1 .serie {
+  display: inline-block;
+  margin-left: 6vw;
+}
+.serie-container1 .serie-image {
+  width: 200px;
+  height: auto;
+}
+
+.serie-container2 {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 22vw;
+}
+.serie-container2 .serie {
+  display: inline-block;
+  margin-left: 6vw;
+}
+.serie-container2 .serie-image {
+  width: 200px;
+  height: auto;
+}
+
+.serie-image:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 0.4s;
 }/*# sourceMappingURL=hbo-series.css.map */
