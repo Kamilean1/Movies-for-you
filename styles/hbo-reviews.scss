@@ -1,16 +1,48 @@
 @use 'var';
-@use 'hbo-var';
+@import 'hbo-var';
 @import 'navs';
 
 
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-a, button, input, textarea, select {
+
+a,
+button,
+input,
+textarea,
+select {
     all: unset;
 }
-ul, li {
+
+ul,
+li {
     list-style-type: none;
+}
+
+body {
+    background-color: $hbo-main-color-2;
+}
+
+.hbo {
+    display: block;
+
+    .hbo-logo {
+        width: 150px;
+        height: auto;
+        display: block;
+        margin-left: 52vw;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    .text {
+        font-family: $main-font-style;
+        color: white;
+        display: block;
+        margin-left: 52.7vw;
+        margin-right: auto;
+    }
 }

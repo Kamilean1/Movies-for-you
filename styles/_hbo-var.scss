@@ -1,17 +1,24 @@
 @use 'var';
 
+
 //*COLOURS//
 $hbo-main-color: #341454;
 $hbo-main-color-2: #030528;
 $hbo-main-color-3: #9c4cec;
+$accent-color: rgb(65, 152, 227);
 
 //*FONTS//
 $main-font-style: 'Merriweather Sans', sans-serif;
 
-body {
-    background-color: $hbo-main-color-2;
-}
-
+//*NAV AND BODY//
 .nav {
     background-color: $hbo-main-color;
 }
+
+.glowing-top-page {
+    width: 100%;
+    height: 4px;
+    background-color: $hbo-main-color-3;
+    box-shadow: 0 0 20px $hbo-main-color-3;
+    filter: blur(0.5rem);
+  }
