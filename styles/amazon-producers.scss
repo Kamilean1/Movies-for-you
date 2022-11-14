@@ -57,6 +57,12 @@ container.info-box {
 }
 
 .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 300;
