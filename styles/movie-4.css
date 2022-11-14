@@ -257,7 +257,6 @@ ul, li {
 }
 
 body {
-  /*background-color: var.$black-color;*/
   background: rgb(88, 72, 223);
   background: -webkit-gradient(linear, left top, right top, color-stop(15%, rgb(88, 72, 223)), color-stop(44%, rgb(6, 24, 106)), to(rgb(0, 0, 0)));
   background: linear-gradient(90deg, rgb(88, 72, 223) 15%, rgb(6, 24, 106) 44%, rgb(0, 0, 0) 100%);
@@ -290,26 +289,13 @@ main {
           align-items: center;
 }
 
-.heading-group {
-  position: relative;
-  text-align: center;
-}
-
-.pizza {
+.movie-img {
   width: 60vw;
   height: 50vh;
   border-radius: 20px;
 }
 
-.logo {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-  width: 10vw;
-  height: 15vh;
-}
-
-container.info-box {
+.info-box {
   width: 60vw;
   height: 30vh;
   background-color: #867ae7;
@@ -335,49 +321,4 @@ container.info-box {
   text-align: center;
   color: white;
   padding: 0.5em;
-}
-
-.movie-group {
-  width: 62vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
-.posters {
-  width: 201px;
-  height: 125px;
-  margin: 10px;
-  border-radius: 20px;
-}
-
-.posters:hover {
-  border: 2px solid white;
-}
-
-@media screen and (max-width: 1100px) {
-  .info {
-    font-size: 35px;
-    line-height: 45px;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .info {
-    font-size: 30px;
-    line-height: 40px;
-  }
-}
-@media screen and (max-width: 700px) {
-  .info {
-    font-size: 25px;
-    line-height: 40px;
-  }
 }
