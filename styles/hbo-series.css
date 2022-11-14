@@ -254,7 +254,7 @@ body {
 
 .serie-container1 {
   display: inline-block;
-  margin-left: 22vw;
+  margin-left: 24.8vw;
   margin-top: 20px;
 }
 .serie-container1 .serie {
@@ -269,7 +269,8 @@ body {
 .serie-container2 {
   display: inline-block;
   margin-top: 20px;
-  margin-left: 22vw;
+  margin-left: 24.8vw;
+  margin-bottom: 30px;
 }
 .serie-container2 .serie {
   display: inline-block;

@@ -259,7 +259,7 @@ body {
   box-shadow: 0px 0px 20px rgb(65, 152, 227);
 }
 
-.movie-info {
+.serie-info {
   background-color: #341454;
   height: 12vw;
   display: block;
@@ -272,7 +272,7 @@ body {
   box-shadow: 0px 0px 20px rgb(65, 152, 227);
   padding-top: 28px;
 }
-.movie-info .text {
+.serie-info .text {
   font-family: "Merriweather Sans", sans-serif;
   color: white;
   text-align: center;
@@ -298,4 +298,4 @@ body {
   margin-left: auto;
   margin-right: auto;
   font-size: 27px;
-}/*# sourceMappingURL=hbo-fahrenheit.css.map */
+}/*# sourceMappingURL=hbo-serie-handmaid.css.map */

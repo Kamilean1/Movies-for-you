@@ -254,7 +254,7 @@ body {
 
 .movie-container1 {
   display: inline-block;
-  margin-left: 22vw;
+  margin-left: 24.8vw;
   margin-top: 20px;
 }
 .movie-container1 .movie {
@@ -269,7 +269,8 @@ body {
 .movie-container2 {
   display: inline-block;
   margin-top: 20px;
-  margin-left: 22vw;
+  margin-left: 24.8vw;
+  margin-bottom: 30px;
 }
 .movie-container2 .movie {
   display: inline-block;
