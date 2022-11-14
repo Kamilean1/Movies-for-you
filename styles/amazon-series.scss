@@ -60,6 +60,12 @@ container.info-box {
     padding: 0.5em;
 }
 
+.info-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .info-group {
     display: flex;
     flex-wrap: wrap;
@@ -137,6 +143,12 @@ container.info-box-2 {
     border-radius: 20px;
     margin: 20px;
     padding: 0.5em;
+}
+
+.info-box-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .info-group-2 {

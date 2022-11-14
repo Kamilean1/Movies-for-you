@@ -57,6 +57,9 @@ container.info-box {
     background-color: #867ae7;
     border-radius: 20px;
     margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .info {
