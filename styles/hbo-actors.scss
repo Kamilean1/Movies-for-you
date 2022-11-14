@@ -1,16 +1,90 @@
 @use 'var';
-@use 'hbo-var';
+@import 'hbo-var';
 @import 'navs';
 
 
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-a, button, input, textarea, select {
+
+a,
+button,
+input,
+textarea,
+select {
     all: unset;
 }
-ul, li {
+
+ul,
+li {
     list-style-type: none;
+}
+
+body {
+    background-color: $hbo-main-color-2;
+}
+
+.hbo {
+    display: block;
+
+    .hbo-logo {
+        width: 150px;
+        height: auto;
+        display: block;
+        margin-left: 52vw;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    .text {
+        font-family: $main-font-style;
+        color: white;
+        display: inline-block;
+        margin-left: 53.3vw;
+        margin-right: auto;
+    }
+}
+
+.actors-container {
+    display: inline-block;
+}
+
+.actor {
+    display: inline-block;
+    margin-left: 27vw;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 40px;
+
+
+    .actor-image {
+        width: auto;
+        height: 18vw;
+        border-radius: 15px;
+        margin-top: 6px;
+        margin-left: 7px;
+        display: inline-block;
+        border: 1px solid $accent-color;
+        box-shadow: 0px 0px 20px $accent-color;
+    }
+
+    .text1 {
+        display: inline-block;
+    }
+
+    .text-1 {
+        display: inline-block;
+        color: $hbo-main-color-3;
+    }
+
+    .text {
+        font-family: $main-font-style;
+        color: white;
+        display: inline-block;
+        margin-top: 5px;
+    }
+    
 }
