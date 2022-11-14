@@ -1,9 +1,13 @@
-body {
-  background-color: #030528;
-}
-
 .nav {
   background-color: #341454;
+}
+
+.glowing-top-page {
+  width: 100%;
+  height: 4px;
+  background-color: #9c4cec;
+  box-shadow: 0 0 20px #9c4cec;
+  filter: blur(0.5rem);
 }
 
 body {
