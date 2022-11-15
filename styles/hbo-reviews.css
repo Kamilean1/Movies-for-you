@@ -239,7 +239,7 @@ body {
 }
 
 .reviews-container {
-  background-color: #341454;
+  background-color: #030528;
   height: 16vw;
   display: block;
   margin-left: 27vw;
@@ -247,20 +247,19 @@ body {
   width: 60%;
   border-radius: 10px;
   margin-top: 40px;
-  border: 1px solid rgb(65, 152, 227);
-  box-shadow: 0px 0px 20px rgb(65, 152, 227);
+  border: 1px solid #9c4cec;
+  box-shadow: 0px 0px 20px #9c4cec;
   padding: 5px 5px;
 }
 .reviews-container .container-2 {
-  background-color: #030528;
   height: 18vw;
   display: block;
   margin-right: auto;
   width: 900px;
   border-radius: 10px;
   margin-top: 40px;
-  border: 1px solid rgb(65, 152, 227);
-  box-shadow: 0px 0px 20px rgb(65, 152, 227);
+  border: 1px solid #9c4cec;
+  box-shadow: 0px 0px 20px #9c4cec;
 }
 .reviews-container .container-2 .text {
   font-family: "Merriweather Sans", sans-serif;
@@ -284,8 +283,8 @@ body {
 .review-images .review {
   width: 600px;
   height: auto;
-  border: 1px solid rgb(65, 152, 227);
-  box-shadow: 0px 0px 20px rgb(65, 152, 227);
+  border: 1px solid #9c4cec;
+  box-shadow: 0px 0px 20px #9c4cec;
   display: inline-block;
   margin-left: 37.5vw;
   margin-top: 20px;
