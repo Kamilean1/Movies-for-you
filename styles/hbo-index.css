@@ -224,7 +224,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  color: #9c4cec;
+  color: white;
   margin-top: 6vw;
 }
 .index-title .text {
@@ -241,10 +241,56 @@ body {
   margin-right: auto;
   width: 45%;
   margin-bottom: 10px;
-  box-shadow: 0 2.8px 2.2px #341454, 0 6.7px 5.3px #341454, 0 12.5px 10px #341454, 0 22.3px 17.9px #341454, 0 41.8px 33.4px #341454, 0 100px 80px #341454;
+  border: 1px solid #9c4cec;
+  box-shadow: 0px 0px 20px #9c4cec;
 }
 .index-image:hover {
   cursor: pointer;
   transform: scale(1.1);
   transition: transform 0.4s;
+}
+
+.index-container {
+  display: inline-block;
+  margin-left: 23.6vw;
+}
+.index-container .index-image4 {
+  width: auto;
+  height: 250px;
+  margin-left: 5px;
+  border: 1px solid #9c4cec;
+  box-shadow: 0px 0px 20px #9c4cec;
+}
+.index-container .index-image4:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 0.4s;
+}
+.index-container .text {
+  font-family: "Merriweather Sans", sans-serif;
+  color: white;
+  text-shadow: 0 0 20px rgb(183, 52, 197);
+}
+
+.index-container2 {
+  display: inline-block;
+  margin-left: 23.6vw;
+  margin-bottom: 50px;
+}
+.index-container2 .index-image4 {
+  width: auto;
+  height: 240px;
+  margin-left: 5px;
+  border: 1px solid #9c4cec;
+  box-shadow: 0px 0px 20px #9c4cec;
+}
+.index-container2 .index-image4:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 0.4s;
+}
+.index-container2 .text {
+  font-family: "Merriweather Sans", sans-serif;
+  color: white;
+  text-shadow: 0 0 20px rgb(183, 52, 197);
 }/*# sourceMappingURL=hbo-index.css.map */
