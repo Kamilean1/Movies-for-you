@@ -58,14 +58,14 @@ body {
     }
 
     .serie-image {
-        border: 1px solid $accent-color;
-        box-shadow: 0px 0px 20px $accent-color;
+        border: 1px solid $hbo-main-color-3;
+        box-shadow: 0px 0px 20px $hbo-main-color-3;
     }
 }
 
 .serie-container1 {
     display: inline-block;
-    margin-left: 22vw;
+    margin-left: 24.8vw;
     margin-top: 20px;
 
     .serie {
@@ -82,7 +82,8 @@ body {
 .serie-container2 {
     display: inline-block;
     margin-top: 20px;
-    margin-left: 22vw;
+    margin-left: 24.8vw;
+    margin-bottom: 30px;
 
     .serie {
         display: inline-block;
