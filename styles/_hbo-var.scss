@@ -13,6 +13,7 @@ $main-font-style: 'Merriweather Sans', sans-serif;
 //*NAV AND BODY//
 .nav {
     background-color: $hbo-main-color;
+    box-shadow: 0px 0px 20px $accent-color;
 }
 
 .glowing-top-page {
@@ -21,4 +22,4 @@ $main-font-style: 'Merriweather Sans', sans-serif;
     background-color: $hbo-main-color-3;
     box-shadow: 0 0 20px $hbo-main-color-3;
     filter: blur(0.5rem);
-  }
+}
