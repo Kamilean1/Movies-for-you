@@ -1,0 +1,671 @@
+body {
+  background-color: #080808;
+}
+
+.header {
+  width: 18vw;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.32)), to(rgba(255, 255, 255, 0.08)));
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.08) 100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.header .nav {
+  padding: 5vw 2vw 2vw 2vw;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header .nav__logo {
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  color: #F2F2F2;
+  text-transform: capitalize;
+  text-align: center;
+}
+.header .nav__logo__m {
+  color: #FF5F1F;
+}
+.header .nav__logo:hover {
+  cursor: pointer;
+}
+.header .nav__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2vw;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 16px;
+  color: #F2F2F2;
+}
+.header .nav__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 2vw;
+  width: 100%;
+}
+.header .nav__link i {
+  margin: 0 1vw;
+}
+.header .nav__link:hover {
+  cursor: pointer;
+  border-radius: 1vw;
+  border-bottom: 3px solid #FF5F1F;
+}
+.header .nav__streaming-service-logo {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+.header .nav__streaming-service-logo img {
+  width: 10vw;
+  height: auto;
+}
+.header .nav__streaming-service-logo:hover {
+  cursor: pointer;
+}
+
+.footer {
+  width: 8vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.footer__container {
+  width: 100%;
+  height: 100%;
+  padding: 3vw 2vw 2vw 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer__user {
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.32)), to(rgba(255, 255, 255, 0.08)));
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.08) 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer__user i {
+  color: #F2F2F2;
+  opacity: 0.7;
+  font-size: 24px;
+}
+.footer__user:hover {
+  cursor: pointer;
+}
+.footer__user:hover i {
+  opacity: 1;
+}
+.footer__services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 6vh;
+}
+.footer__icon {
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  -webkit-box-shadow: -5px -5px 60px rgba(255, 255, 255, 0.25);
+          box-shadow: -5px -5px 60px rgba(255, 255, 255, 0.25);
+  opacity: 0.4;
+}
+.footer__icon img {
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.footer__icon:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.main-disney {
+  width: 100vw;
+  height: 100vh;
+  padding: 0 8vw 0 18vw;
+}
+
+.title-disney-index {
+  width: 70vw;
+  margin: 25px 0px 0px 25px;
+}
+
+.content-title-disney-index {
+  font-family: "Oswald", sans-serif;
+  font-size: 48px;
+  width: 100%;
+  min-height: 100%;
+  background-color: #172b69;
+  padding: 15px;
+  border-radius: 50px;
+  color: #F2F2F2;
+  text-align: center;
+}
+
+.row-disney-index {
+  width: 75vw;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 25px;
+  gap: 1rem;
+}
+
+.column-disney-index-two {
+  width: 75%;
+  gap: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.disney-index-image {
+  width: 100%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.disney-index-image-top {
+  width: 100%;
+}
+
+.disney-index-image:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.disney-index-image-top:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media screen and (max-width: 900px) {
+  .column-disney-index-two, .row-disney-index, .disney-index-image-top {
+    width: 75%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media screen and (max-width: 640px) {
+  .column-disney-index-two, .row-disney-index {
+    width: 75%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.main-disney {
+  width: 100vw;
+  height: 100vh;
+  padding: 0 8vw 0 18vw;
+}
+
+.row-disney-movies {
+  width: 75vw;
+  min-height: 100vh;
+  gap: 1rem;
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-title {
+  color: #2d2d2d;
+  text-align: center;
+  padding: 0.7em 0;
+}
+
+.container-disney-movies .title {
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.container-disney-movies {
+  background-color: #274693;
+  border-radius: 10px;
+  padding: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 35%;
+}
+
+.content-title, .content-text {
+  font-family: "Exo", sans-serif;
+  color: #F2F2F2;
+  font-weight: 500;
+}
+
+.content-title {
+  text-transform: uppercase;
+}
+
+.content-disney-movies {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.content-disney-movies .image-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content-disney-movies:hover .image-overlay {
+  opacity: 1;
+}
+
+.content-image {
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content-disney-movies:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .container-disney-movies {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .container-disney-movies {
+    display: block;
+    width: 65%;
+  }
+}
+.main-disney {
+  width: 100vw;
+  height: 100vh;
+  padding: 0 8vw 0 18vw;
+}
+
+.disney-about-row {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dinsey-image-about {
+  width: 90%;
+  border-radius: 8px;
+}
+
+.container-disney-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+}
+
+.text-block {
+  width: 90%;
+  background-color: rgba(255, 95, 31, 0.6352941176);
+  border-radius: 8px;
+  color: white;
+  font-family: "Merriweather Sans", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+  padding: 8px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.span-disney-plus {
+  font-size: 36px;
+}
+
+.text-block-two {
+  width: 90%;
+  background-color: rgba(255, 95, 31, 0.6352941176);
+  border-radius: 8px;
+  color: white;
+  font-family: "Merriweather Sans", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  padding: 8px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.text-left {
+  font-size: 24px;
+}
+
+.span-prices {
+  font-size: 16px;
+}
+
+.main-disney {
+  width: 100vw;
+  height: 100vh;
+  padding: 0 8vw 0 18vw;
+}
+
+.row-disney-series {
+  width: 75vw;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+  margin-top: 25px;
+}
+
+.main-title {
+  color: #2d2d2d;
+  text-align: center;
+  padding: 0.7em 0;
+}
+
+.container-disney-series {
+  background-color: #274693;
+  border-radius: 10px;
+  padding: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40%;
+}
+
+.container-disney-series .title {
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.content-title, .content-text {
+  font-family: "Exo", sans-serif;
+  color: #F2F2F2;
+  font-weight: 500;
+}
+
+.content-title {
+  text-transform: uppercase;
+}
+
+.content-disney-series {
+  position: relative;
+  overflow: hidden;
+  width: 75%;
+}
+
+.content-disney-series .image-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content-disney-series:hover .image-overlay {
+  opacity: 1;
+}
+
+.content-image {
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content-disney-series:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .container-disney-series {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .container-disney-series {
+    display: block;
+    width: 65%;
+  }
+}
+.main-disney {
+  width: 100vw;
+  height: 100vh;
+  padding: 0 8vw 0 18vw;
+}
+
+.title-disney-producers {
+  width: 70vw;
+  margin: 25px 0px 0px 25px;
+}
+
+.content-title-disney-producers {
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  width: 100%;
+  background-color: #172b69;
+  padding: 10px;
+  border-radius: 50px;
+  color: #F2F2F2;
+  text-align: center;
+}
+
+.row-disney-producers {
+  width: 75vw;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+  margin-top: 25px;
+}
+
+.container-disney-producers {
+  width: 25%;
+}
+
+.content-disney-producers {
+  background-color: #274693;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 900px) {
+  .container-disney-producers {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .container-disney-producers {
+    display: block;
+    width: 65%;
+  }
+}
+div:target {
+  background-color: rgba(255, 95, 31, 0.8078431373);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a, button, input, textarea, select {
+  all: unset;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+body {
+  background-color: #080808;
+}
