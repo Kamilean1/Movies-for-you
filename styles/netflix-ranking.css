@@ -40,6 +40,8 @@
 }
 .btn__vertical:hover {
   cursor: pointer;
+  background-color: #F2F2F2;
+  opacity: 0.7;
 }
 .btn__horizontal {
   border-radius: 1vw;
@@ -54,6 +56,7 @@
 }
 .btn__horizontal:hover {
   cursor: pointer;
+  background-color: #F2F2F2;
 }
 .btn__horizontal__left {
   align-self: center;
