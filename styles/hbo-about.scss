@@ -1,0 +1,159 @@
+@use 'var';
+@import 'hbo-var';
+@import 'navs';
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a,
+button,
+input,
+textarea,
+select {
+    all: unset;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+body {
+    background-color: $hbo-main-color-2;
+}
+
+.hbo-about-image {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: 42vw;
+    width: 30%;
+    margin-top: -2.5vw;
+    -webkit-filter: drop-shadow(10px 10px 35px $hbo-main-color);
+    filter: drop-shadow(10px 3px 25px $hbo-main-color);
+}
+
+.main-info-container {
+    background-color: $hbo-main-color;
+    height: 12.8vw;
+    display: block;
+    margin-left: 31.7vw;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: -4vw;
+    border: 1px solid $accent-color;
+    box-shadow: 0px 0px 20px $accent-color;
+    padding: 5px 5px;
+
+    .text {
+        font-family: $main-font-style;
+        color: white;
+        text-align: center;
+        padding: 16px;
+    }
+
+    .text2 {
+        font-family: $main-font-style;
+        color: white;
+        display: inline-block;
+        height: auto;
+        text-align: center;
+        margin-top: 4px;
+    }
+}
+
+.offers-info-container {
+    background-color: $hbo-main-color;
+    height: 10.4vw;
+    display: block;
+    margin-left: 31.7vw;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 3vw;
+    border: 1px solid $accent-color;
+    box-shadow: 0px 0px 20px $accent-color;
+    padding: 5px 5px;
+
+    .text {
+        font-family: $main-font-style;
+        color: white;
+        text-align: center;
+        padding: 16px;
+    }
+
+    .text2 {
+        font-family: $main-font-style;
+        color: white;
+        display: inline-block;
+        height: auto;
+        text-align: center;
+        margin-top: 4px;
+    }
+}
+
+.prices-container {
+    background-color: $hbo-main-color;
+    height: 19vw;
+    display: inline-block;
+    margin-left: 31.7vw;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 3vw;
+    border: 1px solid $accent-color;
+    box-shadow: 0px 0px 20px $accent-color;
+    margin-bottom: 30px;
+
+    .text {
+        font-family: $main-font-style;
+        color: white;
+    }
+
+    .title {
+        font-family: $main-font-style;
+        color: white;
+        text-align: center;
+        padding-top: 16px;
+    }
+
+}
+
+.prices-container1 {
+    background-color: $hbo-main-color-2;
+    width: 270px;
+    height: 180px;
+    margin-top: 31px;
+    margin-left: 93px;
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid $accent-color;
+    box-shadow: 0px 0px 20px $accent-color;
+    text-align: center;
+
+    .text {
+        padding-top: 14px;
+    }
+}
+
+.prices-container2 {
+    background-color: $hbo-main-color-2;
+    width: 270px;
+    height: 180px;
+    display: inline-block;
+    margin-left: 37px;
+    border-radius: 10px;
+    border: 1px solid $accent-color;
+    box-shadow: 0px 0px 20px $accent-color;
+    text-align: center;
+
+    .text {
+        padding-top: 14px;
+    }
+}

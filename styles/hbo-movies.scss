@@ -1,0 +1,105 @@
+@use 'var';
+@import 'hbo-var';
+@import 'navs';
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a,
+button,
+input,
+textarea,
+select {
+    all: unset;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+body {
+    background-color: $hbo-main-color-2;
+}
+
+.hbo {
+    display: block;
+
+    .hbo-logo {
+        width: 150px;
+        height: auto;
+        display: block;
+        margin-left: 52vw;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    .text {
+        font-family: $main-font-style;
+        color: white;
+        display: block;
+        margin-left: 53.3vw;
+        margin-right: auto;
+    }
+}
+
+.movies-container {
+    display: inline-block;
+
+    .text {
+        font-family: $main-font-style;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .movie-image {
+        border: 1px solid $hbo-main-color-3;
+        box-shadow: 0px 0px 20px $hbo-main-color-3;
+    }
+}
+
+.movie-container1 {
+    display: inline-block;
+    margin-left: 24.8vw;
+    margin-top: 20px;
+
+    .movie {
+        display: inline-block;
+        margin-left: 6vw;
+    }
+
+    .movie-image {
+        width: 200px;
+        height: auto;
+    }
+}
+
+.movie-container2 {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 24.8vw;
+    margin-bottom: 30px;
+
+    .movie {
+        display: inline-block;
+        margin-left: 6vw;
+    }
+
+    .movie-image {
+        width: 200px;
+        height: auto;
+    }
+}
+
+.movie-image {
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: transform 0.4s;
+    }
+}

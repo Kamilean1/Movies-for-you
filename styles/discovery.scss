@@ -1,0 +1,141 @@
+@use 'var';
+
+@import 'navs';
+
+//base//
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a, button, input, textarea, select {
+    all: unset;
+}
+ul, li {
+    list-style-type: none;
+}
+
+body {
+    background-color: var.$black-color;
+}
+.show {
+    display: flex !important;
+}
+
+.main {
+    padding: 3.5vw 2vw 2vw 2vw;
+    &__search {
+        width: 100%;
+        padding-right: 12vw;
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__cards {
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+    }
+    
+    &__card {
+        background: var.$linear-bg-cards;
+        border-radius: 1vw;
+        padding: 2vw;
+        opacity: .6;
+        &:hover {
+            opacity: 1;
+            .main__card__bottom {
+                display: flex;
+            }
+        }
+        &__top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            opacity: .6;
+            //&:hover {
+            //    cursor: pointer;
+            //}
+        }
+        &__text-container {
+            display: flex;
+            gap: .6vw;
+            align-items: center;
+        }
+        &__number {
+            font-family: var.$logo-font;
+            font-size: var.$size-large;
+            color: var.$accent-color;
+            font-weight: var.$weight-medium;
+        }
+        &__service {
+            font-family: var.$logo-font;
+            font-size: var.$size-medium;
+            color: var.$white-color;
+            font-weight: var.$weight-regular;
+            text-transform: uppercase;
+            width: 12vw;
+        }
+        &__price {
+            font-family: var.$text-font;
+            font-size: var.$size-regular;
+            color: var.$white-color;
+            font-weight: var.$weight-regular;
+            width: 6vw;
+        }
+        &__title {
+            font-family: var.$text-font;
+            font-size: var.$size-regular;
+            color: var.$white-color;
+            font-weight: var.$weight-light;
+            opacity: .7;
+            width: 20vw;
+        }
+        &__bottom {
+            padding-top: 8vh;
+            display: none;
+            flex-direction: column;
+            gap: 2vh;
+            &__container {
+                display: flex;
+                padding: 0 12vw 4vh 12vw;
+                gap: 6vw;
+            }
+            &__half {
+                display: flex;
+                flex-direction: column;
+                width: 30vw;
+                &__title {
+                    font-family: var.$text-font;
+                    font-size: var.$size-small;
+                    color: var.$white-color;
+                    font-weight: var.$weight-medium;
+                    text-transform: uppercase;
+                    padding-bottom: 4vh;
+                }
+                &__list {
+                    list-style-type: circle;
+                    font-family: var.$text-font;
+                    font-size: var.$size-small;
+                    color: var.$white-color;
+                    font-weight: var.$weight-light;
+                    opacity: .7;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1vh;
+                    padding-left: 2vw;
+                    li {
+                        list-style-type: disc;
+                    }
+                }
+            }
+        }
+        &__btn {
+            align-self: flex-end;
+        }
+    }
+}
+
+.footer {
+    height: auto; //overwrite partials!!
+ }

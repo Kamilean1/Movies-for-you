@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--LINKS TO STYLES-->
+    <link rel="stylesheet" href="../../styles/normalize.css">
+    <link rel="stylesheet" href="../../styles/netflix-ranking.css">   
+<!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&family=Merriweather+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+<!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/90116f7b33.js" crossorigin="anonymous"></script>
+<!--TITLE-->
+    <title>Movies For You || Netflix - upcoming movies</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="../discover.html" class="nav__logo">
+                <span class="nav__logo__m">M</span>ovies For You
+            </a>
+            <ul class="nav__links">
+                <li>
+                    <a href="netflix-about.html" class="nav__link">
+                        <i class="fa-solid fa-pen"></i>
+                        <p class="nav__link__text">about</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="netflix-movies.html" class="nav__link link__about">
+                        <i class="fa-solid fa-film"></i>
+                    <p class="nav__link__text">movies</p>
+                    </a>
+                </li>
+                <li>
+                    <ul class="list">
+                        <li>
+                            <a href="netflix-movies-ranking.html" class="list__item text">
+                                ranking
+                            </a>
+                        </li>
+                        <li>
+                            <a href="netflix-movies-genres.html" class="list__item text">
+                                genres
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="list__item text active">
+                                upcoming
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="netflix-series.html" class="nav__link">
+                        <i class="fa-solid fa-clapperboard"></i>
+                    <p class="nav__link__text">series</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="netflix-actors.html" class="nav__link">
+                        <i class="fa-solid fa-star"></i>
+                    <p class="nav__link__text">actors</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="netflix-producers.html" class="nav__link">
+                        <i class="fa-solid fa-video"></i>
+                    <p class="nav__link__text">producers</p>
+                    </a>
+                </li>
+            </ul>
+            <a href="netflix.com" target="_blank" class="nav__streaming-service-logo">
+                <img src="../../img/navs/netflix-logo.png" alt="netflix logo">
+            </a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="main__search">
+            <div class="search">
+                <label for="search" class="main__search__label search__label">
+                    <i class="fa-solid fa-magnifying-glass"></i>   
+                </label>
+                <input type="search" placeholder="search..." class="main__search__input search__input" id="search">
+            </div>
+        </div>
+        <section class="main__upcoming upcoming">
+            <h3 class="main__upcoming__title upcoming__title">
+                UPCOMING in October
+            </h3>
+            <div class="main__upcoming__cards upcoming__cards">
+                <div class="main__upcoming__card upcoming__card">
+                    <img src="../../img/netflix/netflix-img-movies-upcoming-1.jpg" alt="luckiest girl alive movie poster" class="upcoming__card__img">
+                    <h3 class="upcoming__card__title title__secondary">
+                        Luckiest girl alive
+                    </h3>
+                    <p class="upcoming__card__date title__secondary">
+                        04.10
+                    </p>
+                    <a href="#">
+                        <button class="upcoming__card__btn btn__vertical">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </a>
+                </div>
+                <div class="main__upcoming__card upcoming__card">
+                    <img src="../../img/netflix/netflix-img-movies-upcoming-2.jpg" alt="the good nurse movie poster" class="upcoming__card__img">
+                    <h3 class="upcoming__card__title title__secondary">
+                        The Good Nurse
+                    </h3>
+                    <p class="upcoming__card__date title__secondary">
+                        12.10
+                    </p>
+                    <a href="#">
+                        <button class="upcoming__card__btn btn__vertical">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </a>
+                </div>
+                <div class="main__upcoming__card upcoming__card">
+                    <img src="../../img/netflix/netflix-img-movies-upcoming-3.jpg" alt="Im Westen nichts Neues movie poster" class="upcoming__card__img">
+                    <h3 class="upcoming__card__title title__secondary">
+                        Im Westen nichts Neues
+                    </h3>
+                    <p class="upcoming__card__date title__secondary">
+                        19.10
+                    </p>
+                    <a href="#">
+                        <button class="upcoming__card__btn btn__vertical">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <h3 class="main__upcoming__title upcoming__title">
+                UPCOMING in November
+            </h3>
+            <div class="main__upcoming__cards upcoming__cards">
+                <div class="main__upcoming__card upcoming__card">
+                    <img src="../../img/netflix/netflix-img-movies-upcoming-1.jpg" alt="luckiest girl alive movie poster" class="upcoming__card__img">
+                    <h3 class="upcoming__card__title title__secondary">
+                        Luckiest girl alive
+                    </h3>
+                    <p class="upcoming__card__date title__secondary">
+                        04.11
+                    </p>
+                    <a href="#">
+                        <button class="upcoming__card__btn btn__vertical">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </a>
+                </div>
+                <div class="main__upcoming__card upcoming__card">
+                    <img src="../../img/netflix/netflix-img-movies-upcoming-2.jpg" alt="the good nurse movie poster" class="upcoming__card__img">
+                    <h3 class="upcoming__card__title title__secondary">
+                        The Good Nurse
+                    </h3>
+                    <p class="upcoming__card__date title__secondary">
+                        12.11
+                    </p>
+                    <a href="#">
+                        <button class="upcoming__card__btn btn__vertical">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </a>
+                </div>
+                <div class="main__upcoming__card upcoming__card">
+                    <img src="../../img/netflix/netflix-img-movies-upcoming-3.jpg" alt="Im Westen nichts Neues movie poster" class="upcoming__card__img">
+                    <h3 class="upcoming__card__title title__secondary">
+                        Im Westen nichts Neues
+                    </h3>
+                    <p class="upcoming__card__date title__secondary">
+                        19.11
+                    </p>
+                    <a href="#">
+                        <button class="upcoming__card__btn btn__vertical">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__user">
+                <a href="#">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+            </div>
+            <div class="footer__services">
+                <div class="footer__icon netflix">
+                    <a href="../netflix/netflix-index.html">
+                        <img src="../../img/navs/netflix-icon-round.svg" alt="netflix logo">
+                    </a>
+                </div>
+                <div class="footer__icon">
+                    <a href="../hbomax/hbo-index.html">
+                        <img src="../../img/navs/hbo-icon-round.svg" alt="hbo logo">
+                    </a>
+                </div>
+                <div class="footer__icon">
+                    <a href="#">
+                        <img src="../../img/navs/apple-tv-icon-round.png" alt="apple tv logo">
+                    </a>
+                </div>
+                <div class="footer__icon">
+                    <a href="#">
+                        <img src="../../img/navs/hulu-logo-icon.png" alt="hulu logo">
+                    </a>
+                </div>
+                <div class="footer__icon">
+                    <a href="../amazon/amazon-index.html">
+                        <img src="../../img/navs/prime-icon-round.png" alt="prime logo">
+                    </a>
+                </div>
+                <div class="footer__icon">
+                    <a href="#">
+                        <img src="../../img/navs/disney-plus-logo-round.png" alt="disney logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

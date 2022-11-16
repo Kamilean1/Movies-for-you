@@ -1,0 +1,114 @@
+@use 'var';
+@import 'hbo-var';
+@import 'navs';
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a,
+button,
+input,
+textarea,
+select {
+    all: unset;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+body {
+    background-color: $hbo-main-color-2;
+}
+
+.hbo {
+    display: block;
+
+    .hbo-logo {
+        width: 150px;
+        height: auto;
+        display: block;
+        margin-left: 52vw;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    .text {
+        font-family: $main-font-style;
+        color: white;
+        display: block;
+        margin-left: 53.3vw;
+        margin-right: auto;
+    }
+}
+
+.image-container {
+    display: block;
+    margin-left: 26.8vw;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+    margin-top: 30px;
+
+    .title-1 {
+        font-family: $main-font-style;
+        color: white;
+        margin-bottom: 20px;
+    }
+}
+
+.image-1 {
+    width: 700px;
+    height: auto;
+    border: 1px solid $accent-color;
+    box-shadow: 0px 0px 20px $accent-color;
+}
+
+.serie-info {
+    background-color: $hbo-main-color;
+    height: 14.5vw;
+    display: block;
+    margin-left: 32vw;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 40px;
+    border: 1px solid $accent-color;
+    box-shadow: 0px 0px 20px $accent-color;
+    padding-top: 28px;
+
+    .text {
+        font-family: $main-font-style;
+        color: white;
+        text-align: center;
+    }
+
+}
+
+.button-container {
+    display: block;
+    margin-left: 52vw;
+    margin-right: auto;
+    width: 150px;
+    background-color: $hbo-main-color-3;
+    border: 1px solid $accent-color;
+    box-shadow: 0px 0px 20px $accent-color;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+    .button {
+        display: block;
+        font-family: $main-font-style;
+        color: white;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 27px;
+    }
+}

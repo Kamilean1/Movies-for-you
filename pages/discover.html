@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--LINKS TO STYLES-->
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <!--<link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">-->
+    <link rel="stylesheet" href="../styles/discovery.css">   
+<!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&family=Merriweather+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+<!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/90116f7b33.js" crossorigin="anonymous"></script>
+<!--TITLE-->
+    <title>Movies For You || Netflix</title>
+</head>
+<body>
+    <main class="main">
+        <div class="main__search">
+            <div class="search">
+                <label for="search" class="main__search__label search__label">
+                    <i class="fa-solid fa-magnifying-glass"></i>   
+                </label>
+                <input type="search" placeholder="search..." class="main__search__input search__input" id="search">
+            </div>
+        </div>
+        <div class="main__cards">
+            <div class="main__card">
+                <div class="main__card__top" id="card-top">
+                    <div class="main__card__text-container">
+                        <p class="main__card__number">
+                            1
+                        </p>
+                        <h3 class="main__card__service">
+                            NETFLIX
+                        </h3>
+                    </div>
+                    <p class="main__card__price">
+                        $10
+                    </p>
+                    <h3 class="main__card__title">
+                        Best streaming service overall
+                    </h3>
+                    <div class="footer__icon">
+                        <a href="netflix/netflix-index.html">
+                            <img src="../../img/navs/netflix-icon-round.svg" alt="netflix logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="main__card__bottom" id="card-bottom">
+                    <div class="main__card__bottom__container">
+                        <div class="main__card__bottom__half">
+                            <h5 class="main__card__bottom__half__title">
+                                PROS
+                            </h5>
+                            <ul class="main__card__bottom__half__list">
+                                <li class="main__card__bottom__half__item">
+                                    Simple interface that's easy to navigate
+                                </li>
+                                <li class="main__card__bottom__half__item">
+                                    Solid recommendation system
+                                </li>
+                                <li class="main__card__bottom__half__item">
+                                    Abundant catalog of licensed movies, 
+                                    shows and originals including Stranger Things, 
+                                    The Umbrella Academy and Cobra Kai.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="main__card__bottom__half">
+                            <h5 class="main__card__bottom__half__title">
+                                CONS
+                            </h5>
+                            <ul class="main__card__bottom__half__list">
+                                <li class="main__card__bottom__half__item">
+                                    Expensive subscription plans
+                                </li>
+                            </ul>  
+                        </div>
+                    </div>
+                    <a href="netflix/netflix-index.html" class="main__card__btn">
+                        <button class="btn__primary">
+                            <p>read more</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="main__card">
+                <div class="main__card__top">
+                    <div class="main__card__text-container">
+                        <p class="main__card__number">
+                            2
+                        </p>
+                        <h3 class="main__card__service">
+                            HBO
+                        </h3>
+                    </div>
+                    <p class="main__card__price">
+                        $10
+                    </p>
+                    <h3 class="main__card__title">
+                        Huge catalog of premium content
+                    </h3>
+                    <div class="footer__icon">
+                        <a href="hbomax/hbo-index.html">
+                            <img src="../img/navs/hbo-icon-round.svg" alt="hbo logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="main__card__bottom">
+                    <div class="main__card__bottom__container">
+                        <div class="main__card__bottom__half">
+                            <h5 class="main__card__bottom__half__title">
+                                PROS
+                            </h5>
+                            <ul class="main__card__bottom__half__list">
+                                <li class="main__card__bottom__half__item">
+                                    Slick interface
+                                </li>
+                                <li class="main__card__bottom__half__item">
+                                    Loads of content for all audiences. Shows and movies include The Batman, 
+                                    Euphoria, Hacks, Teen Titans, Succession and House of the Dragon
+                                </li>
+                                <li class="main__card__bottom__half__item">
+                                    Reliable, customizable parental controls
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="main__card__bottom__half">
+                            <h5 class="main__card__bottom__half__title">
+                                CONS
+                            </h5>
+                            <ul class="main__card__bottom__half__list">
+                                <li class="main__card__bottom__half__item">
+                                    Pricier subscriptions
+                                </li>
+                            </ul>  
+                        </div>
+                    </div>
+                    <a href="hbomax/hbo-index.html" class="main__card__btn">
+                        <button class="btn__primary">
+                            <p>read more</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="main__card">
+                <div class="main__card__top">
+                    <div class="main__card__text-container">
+                        <p class="main__card__number">
+                            3
+                        </p>
+                        <h3 class="main__card__service">
+                            APPLE TV
+                        </h3>
+                    </div>
+                    <p class="main__card__price">
+                        $5
+                    </p>
+                    <h3 class="main__card__title">
+                        Boast quality originals like Ted Lasso and CODA
+                    </h3>
+                    <div class="footer__icon">
+                        <a href="#">
+                            <img src="../img/navs/apple-tv-icon-round.png" alt="apple tv logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="main__card__bottom">
+                    <div class="main__card__bottom__container">
+                        <div class="main__card__bottom__half">
+                            <h5 class="main__card__bottom__half__title">
+                                PROS
+                            </h5>
+                            <ul class="main__card__bottom__half__list">
+                                <li class="main__card__bottom__half__item">
+                                    Ted Lasso, and prestige shows such as Pachinko, Foundation, 
+                                    The Morning Show, Severance
+                                </li>
+                                <li class="main__card__bottom__half__item">
+                                    No ads
+                                </li>
+                                <li class="main__card__bottom__half__item">
+                                    All originals stream with 4K, HDR, Dolby Vision and Dolby Atmos
+                                </li>
+                                <li class="main__card__bottom__half__item">
+                                    Cheap monthly rate
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="main__card__bottom__half">
+                            <h5 class="main__card__bottom__half__title">
+                                CONS
+                            </h5>
+                            <ul class="main__card__bottom__half__list">
+                                <li class="main__card__bottom__half__item">
+                                    Small selection of titles
+                                </li>
+                                <li class="main__card__bottom__half__item">
+                                    No Android support
+                                </li>
+                                <li class="main__card__bottom__half__item">
+                                    Lack of older content
+                                </li>
+                            </ul>  
+                        </div>
+                    </div>
+                    <a href="#" class="main__card__btn">
+                        <button class="btn__primary">
+                            <p>read more</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="main__card">
+                <div class="main__card__top">
+                    <div class="main__card__text-container">
+                        <p class="main__card__number">
+                            4
+                        </p>
+                        <h3 class="main__card__service">
+                            HULU
+                        </h3>
+                    </div>
+                    <p class="main__card__price">
+                        $8
+                    </p>
+                    <h3 class="main__card__title">
+                        Affordable choice with lot of variety
+                    </h3>
+                    <div class="footer__icon">
+                        <a href="#">
+                            <img src="../img/navs/hulu-logo-icon.png" alt="hulu logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="main__card__bottom">
+                    <div class="main__card__bottom__container">
+                        <div class="main__card__bottom__half">
+                            <h5 class="main__card__bottom__half__title">
+                                PROS
+                            </h5>
+                            <ul class="main__card__bottom__half__list">
+                                <li class="main__card__bottom__half__item">
+                                    Low monthly price
+                                </li>
+                                <li class="main__card__bottom__half__item">
+                                    Access to network shows and originals including Abbott Elementary, 
+                                    The Handmaid's Tale, Only Murders in the Building, 
+                                    The Kardashians, Love Island
+                                </li>
+                                <li class="main__card__bottom__half__item">
+                                    New episodes available almost immediately
+                                </li>
+                                <li class="main__card__bottom__half__item">
+                                    Option to get the Disney Bundle
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="main__card__bottom__half">
+                            <h5 class="main__card__bottom__half__title">
+                                CONS
+                            </h5>
+                            <ul class="main__card__bottom__half__list">
+                                <li class="main__card__bottom__half__item">
+                                    Smaller catalog of originals than its rivals
+                                </li>
+                                <li class="main__card__bottom__half__item">
+                                    Menus are sometimes hard to navigate
+                                </li>
+                            </ul>  
+                        </div>
+                    </div>
+                    <a href="#" class="main__card__btn">
+                        <button class="btn__primary">
+                            <p>read more</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="main__card">
+                <div class="main__card__top">
+                    <div class="main__card__text-container">
+                        <p class="main__card__number">
+                            5
+                        </p>
+                        <h3 class="main__card__service">
+                            PRIME VIDEOS
+                        </h3>
+                    </div>
+                    <p class="main__card__price">
+                        $9
+                    </p>
+                    <h3 class="main__card__title">
+                        Best value bundled with Amazon membership
+                    </h3>
+                    <div class="footer__icon">
+                        <a href="../pages/amazon/amazon-index.html">
+                            <img src="../img/navs/prime-icon-round.png" alt="prime logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="main__card__bottom">
+                    <div class="main__card__bottom__container">
+                        <div class="main__card__bottom__half">
+                            <h5 class="main__card__bottom__half__title">
+                                PROS
+                            </h5>
+                            <ul class="main__card__bottom__half__list">
+                                <li class="main__card__bottom__half__item">
+                                    Included in with Prime membership
+                                </li>
+                                <li class="main__card__bottom__half__item">
+                                    Large selection of movies and TV shows including The Boys, 
+                                    The Rings of Power, Hunters and Reacher
+                                </li>
+                                <li class="main__card__bottom__half__item">
+                                    Offline downloads
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="main__card__bottom__half">
+                            <h5 class="main__card__bottom__half__title">
+                                CONS
+                            </h5>
+                            <ul class="main__card__bottom__half__list">
+                                <li class="main__card__bottom__half__item">
+                                    Confusing search process and menus
+                                </li>
+                                <li class="main__card__bottom__half__item">
+                                    Free and paid content stacked together
+                                </li>
+                            </ul>  
+                        </div>
+                    </div>
+                    <a href="../pages/amazon/amazon-index.html" class="main__card__btn">
+                        <button class="btn__primary">
+                            <p>read more</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="main__card">
+                <div class="main__card__top">
+                    <div class="main__card__text-container">
+                        <p class="main__card__number">
+                            6
+                        </p>
+                        <h3 class="main__card__service">
+                            DISNEY +
+                        </h3>
+                    </div>
+                    <p class="main__card__price">
+                        $8
+                    </p>
+                    <h3 class="main__card__title">
+                        Offers vault of family-friendly and franchise hits
+                    </h3>
+                    <div class="footer__icon">
+                        <a href="#">
+                            <img src="../img/navs/disney-plus-logo-round.png" alt="disney plus logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="main__card__bottom">
+                    <div class="main__card__bottom__container">
+                        <div class="main__card__bottom__half">
+                            <h5 class="main__card__bottom__half__title">
+                                PROS
+                            </h5>
+                            <ul class="main__card__bottom__half__list">
+                                <li class="main__card__bottom__half__item">
+                                    Huge library that includes Thor: Love and Thunder, 
+                                    Obi-Wan Kenobi, She-Hulk and Luca 
+                                </li>
+                                <li class="main__card__bottom__half__item">
+                                    Ad-free with reasonable monthly price (for now)
+                                </li>
+                                <li class="main__card__bottom__half__item">
+                                    Adjustable content rating system
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="main__card__bottom__half">
+                            <h5 class="main__card__bottom__half__title">
+                                CONS
+                            </h5>
+                            <ul class="main__card__bottom__half__list">
+                                <li class="main__card__bottom__half__item">
+                                    Extended waits for new or original releases
+                                </li>
+                            </ul>  
+                        </div>
+                    </div>
+                    <a href="#" class="main__card__btn">
+                        <button class="btn__primary">
+                            <p>read more</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__user">
+                <a href="#">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!--<script src="../js/discover.js"></script>-->
+</body>
+</html>

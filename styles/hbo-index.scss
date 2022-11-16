@@ -1,0 +1,116 @@
+@use 'var';
+@import 'hbo-var';
+@import 'navs';
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a,
+button,
+input,
+textarea,
+select {
+    all: unset;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+body {
+    background-color: $hbo-main-color-2;
+}
+
+//*TITLE//
+
+.index-title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: white;
+    margin-top: 6vw;
+
+    .text {
+        font-family: $main-font-style;
+        text-shadow: 0 0 20px rgb(183, 52, 197);
+        font-size: 30px;
+    }
+}
+
+//*IMAGES// 
+
+.index-image {
+    width: 800px;
+    height: auto;
+    display: block;
+    margin-left: 36vw;
+    margin-right: auto;
+    width: 45%;
+    margin-bottom: 10px;
+    border: 1px solid $hbo-main-color-3;
+    box-shadow: 0px 0px 20px $hbo-main-color-3;
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: transform 0.4s;
+    }
+}
+
+.index-container {
+    display: inline-block;
+    margin-left: 23.6vw;
+
+    .index-image4 {
+        width: auto;
+        height: 250px;
+        margin-left: 5px;
+        border: 1px solid $hbo-main-color-3;
+        box-shadow: 0px 0px 20px $hbo-main-color-3;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+            transition: transform 0.4s;
+        }
+    }
+
+    .text {
+        font-family: $main-font-style;
+        color: white;
+        text-shadow: 0 0 20px rgb(183, 52, 197);
+    }
+
+}
+
+.index-container2 {
+    display: inline-block;
+    margin-left: 23.6vw;
+    margin-bottom: 50px;
+
+    .index-image4 {
+        width: auto;
+        height: 240px;
+        margin-left: 5px;
+        border: 1px solid $hbo-main-color-3;
+        box-shadow: 0px 0px 20px $hbo-main-color-3;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+            transition: transform 0.4s;
+        }
+    }
+
+    .text {
+        font-family: $main-font-style;
+        color: white;
+        text-shadow: 0 0 20px rgb(183, 52, 197);
+    }
+}

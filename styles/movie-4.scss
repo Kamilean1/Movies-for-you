@@ -1,0 +1,60 @@
+@use 'var';
+
+@import 'navs';
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a, button, input, textarea, select {
+    all: unset;
+}
+ul, li {
+    list-style-type: none;
+}
+
+body {
+    background: rgb(88,72,223);
+    background: linear-gradient(90deg, rgba(88,72,223,1) 15%, rgba(6,24,106,1) 44%, rgba(0,0,0,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 80vw;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+.movie-img {
+    width: 60vw;
+    height: 50vh;
+    border-radius: 20px;
+}
+
+
+.info-box {
+    width: 60vw;
+    height: 30vh;
+    background-color: #867ae7;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    padding: 0.5em;
+}

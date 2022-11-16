@@ -1,0 +1,302 @@
+.nav {
+  background-color: #341454;
+  box-shadow: 0px 0px 20px rgb(65, 152, 227);
+}
+
+.glowing-top-page {
+  width: 100%;
+  height: 4px;
+  background-color: #9c4cec;
+  box-shadow: 0 0 20px #9c4cec;
+  filter: blur(0.5rem);
+}
+
+body {
+  background-color: #080808;
+}
+
+.header {
+  width: 18vw;
+  height: 100vh;
+  background: linear-gradient(rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.08) 100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+.header .nav {
+  padding: 5vw 2vw 2vw 2vw;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header .nav__logo {
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  color: #F2F2F2;
+  text-transform: capitalize;
+  text-align: center;
+}
+.header .nav__logo__m {
+  color: #FF5F1F;
+}
+.header .nav__logo:hover {
+  cursor: pointer;
+}
+.header .nav__links {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 16px;
+  color: #F2F2F2;
+}
+.header .nav__link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 2vw;
+  width: 100%;
+}
+.header .nav__link i {
+  margin: 0 1vw;
+}
+.header .nav__link:hover {
+  cursor: pointer;
+  border-radius: 1vw;
+  border-bottom: 3px solid #FF5F1F;
+}
+.header .nav__streaming-service-logo {
+  align-self: center;
+}
+.header .nav__streaming-service-logo img {
+  width: 10vw;
+  height: auto;
+}
+.header .nav__streaming-service-logo:hover {
+  cursor: pointer;
+}
+
+.footer {
+  width: 8vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 3;
+}
+.footer__container {
+  width: 100%;
+  height: 100%;
+  padding: 3vw 2vw 2vw 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__user {
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+  background: linear-gradient(rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.08) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__user i {
+  color: #F2F2F2;
+  opacity: 0.7;
+  font-size: 24px;
+}
+.footer__user:hover {
+  cursor: pointer;
+}
+.footer__user:hover i {
+  opacity: 1;
+}
+.footer__services {
+  display: flex;
+  flex-direction: column;
+  gap: 6vh;
+}
+.footer__icon {
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  box-shadow: -5px -5px 60px rgba(255, 255, 255, 0.25);
+  opacity: 0.4;
+}
+.footer__icon img {
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.footer__icon:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.btn__primary {
+  padding: 1vw 2vw;
+  border: 1px solid #FF5F1F;
+  border-radius: 2vw;
+  background: linear-gradient(rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.08) 100%);
+  color: #FF5F1F;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  display: flex;
+  gap: 4vw;
+  opacity: 0.7;
+}
+.btn__primary:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.search {
+  height: 3vw;
+  width: 14vw;
+  background: linear-gradient(rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.08) 100%);
+  border-radius: 2vw;
+  position: relative;
+}
+.search__input {
+  position: absolute;
+  right: 0;
+  height: 3vw;
+  width: 10vw;
+}
+.search__input::-moz-placeholder {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 16px;
+  color: #F2F2F2;
+}
+.search__input:-ms-input-placeholder {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 16px;
+  color: #F2F2F2;
+}
+.search__input::placeholder {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 16px;
+  color: #F2F2F2;
+}
+.search__label {
+  position: absolute;
+  top: 1vw;
+  left: 1vw;
+}
+.search__label i {
+  color: #F2F2F2;
+  opacity: 0.6;
+  font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a,
+button,
+input,
+textarea,
+select {
+  all: unset;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+body {
+  background-color: #030528;
+}
+
+.hbo {
+  display: block;
+}
+.hbo .hbo-logo {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin-left: 52vw;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.hbo .text {
+  font-family: "Merriweather Sans", sans-serif;
+  color: white;
+  display: block;
+  margin-left: 53.3vw;
+  margin-right: auto;
+}
+
+.image-container {
+  display: block;
+  margin-left: 26.8vw;
+  margin-right: auto;
+  width: 60%;
+  text-align: center;
+  margin-top: 30px;
+}
+.image-container .title-1 {
+  font-family: "Merriweather Sans", sans-serif;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.image-1 {
+  width: 700px;
+  height: auto;
+  border: 1px solid rgb(65, 152, 227);
+  box-shadow: 0px 0px 20px rgb(65, 152, 227);
+}
+
+.serie-info {
+  background-color: #341454;
+  height: 14.5vw;
+  display: block;
+  margin-left: 32vw;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 10px;
+  margin-top: 40px;
+  border: 1px solid rgb(65, 152, 227);
+  box-shadow: 0px 0px 20px rgb(65, 152, 227);
+  padding-top: 28px;
+}
+.serie-info .text {
+  font-family: "Merriweather Sans", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.button-container {
+  display: block;
+  margin-left: 52vw;
+  margin-right: auto;
+  width: 150px;
+  background-color: #9c4cec;
+  border: 1px solid rgb(65, 152, 227);
+  box-shadow: 0px 0px 20px rgb(65, 152, 227);
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.button-container .button {
+  display: block;
+  font-family: "Merriweather Sans", sans-serif;
+  color: white;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 27px;
+}/*# sourceMappingURL=hbo-serie-dragon.css.map */
